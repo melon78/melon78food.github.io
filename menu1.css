@@ -607,7 +607,7 @@ background: linear-gradient( 150deg,#E0881D, #8F5AFF);
   background-color: #EDEFEF ;
   text-align: justify;
   border:solid black 1px;
-  margin-right: 
+ 
  
    
 }
@@ -751,8 +751,6 @@ div.trait
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 50px
-	margin-right:50px;
   padding:20px;
 }
 
@@ -779,7 +777,7 @@ h1
 		#bloc_page{width:100%;}
 		body{min-width: 400px;}
 		.bouton{width: 100%;}
-		footer{width: 96.4%;}
+		footer{width: 100%;}
 		div.trait{width: 100%;}
 
 	}

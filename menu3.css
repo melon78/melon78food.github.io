@@ -226,10 +226,10 @@ header
 
 header h1 
 {
-	color: #FDD835;
-	text-transform: lowercase;
-	font-family: truenosemibold,Arial,sans-serif;
-  letter-spacing: -2px;
+color: #FDD835;
+text-transform: lowercase;
+font-family: truenosemibold,Arial,sans-serif;
+letter-spacing: -2px;
 }
 
 section 
@@ -399,6 +399,7 @@ article p
 {
 	background-color: #EDEFEF;
 	text-align: justify;
+
 }
 
 #fond p
@@ -494,8 +495,7 @@ div.trait
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 30px
-  margin-right:30px;
+ 
 }
 
 .trait img
@@ -506,11 +506,14 @@ div.trait
 
 
 
-@media all and (max-width: 680px){
 
-		#bloc_page{width:100% !important;}
-		.bouton{width: 100%;}
-		footer{width: 96.4%;}
+@media all and (max-width: 950px){
+
+   #bloc_page{width:100%;background-color:#EDEFEF;padding-bottom: 500px}
+    body{min-width: 400px;}
+    .bouton{width: 100%;}
+    footer{width: 100%;}
+    div.trait{width: 100%;}
 
 	}
 
