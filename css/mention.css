@@ -20,19 +20,18 @@ margin: 0;
 #bloc_page /* le contenru de ma page*/
 {
 	
-	width: 40%;
+	width: 100%;
 	margin:auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-
 }
 
 
 footer
 {
 
-width: 40%;
+width: 100%;
 display: flex;
 justify-content: space-between;
 position: fixed;
@@ -63,11 +62,10 @@ header h1
 .cadre 
 {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;	
 	margin-top: 20px;
-	margin-bottom:20px; 
-
+	margin-bottom:20px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 
@@ -78,8 +76,8 @@ header h1
 article
 
 {
-text-align: justify;
 
+text-align: justify;
 
 }
 
@@ -87,12 +85,6 @@ text-align: justify;
 a{
 
 	text-decoration: none;
-}
-
-#menus img
-{
-
-width: 100%;
 }
 
 
@@ -119,6 +111,7 @@ width: 100%;
 p{
 	color: #263238;
 	font-size: 20px;
+	
 }
 
 

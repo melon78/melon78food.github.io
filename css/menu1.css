@@ -359,7 +359,7 @@ body
 #bloc_page /* le contenru de ma page*/
 {
 	
-	width: 40%;
+	width: 100%;
 	margin:auto;
 	display:flex;
 	flex-direction: column;
@@ -373,7 +373,7 @@ header
 {
 	display: flex;
 	justify-content: center;
-	background-color: #009688;
+	background-color: #579C87;
 		
 
 }
@@ -394,7 +394,7 @@ section
 	justify-content: center;	
 	margin-top: 20px;
 	margin-bottom:20px; 
-  width: 100%;
+ 
 
 }
 
@@ -469,7 +469,7 @@ opacity: 0.5;
 {
 	
 	justify-content: center;
-	background-color:#009688;
+	background-color:#579C87;
 	border-radius: 5px;
 	text-align: center;
 	margin-top: 10px;
@@ -534,12 +534,12 @@ a.papa :hover
 footer
 {
 
-width: 40%;
+width: 100%;
 margin-right: auto;
 margin-left: auto;
 display:flex;
 justify-content: space-around;
-background-color: #009688;
+background-color: #579C87;
 position:fixed;
 bottom: 0;
 }
@@ -559,6 +559,8 @@ article p
 {
 	background-color: #fcdfd8;
 	text-align: justify;
+ margin:auto;
+
 }
 
 #fond p

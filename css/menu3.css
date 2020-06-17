@@ -205,7 +205,7 @@ body
 #bloc_page /* le contenru de ma page*/
 {
 	
-	width: 40%;
+	width: 100%;
 	margin:auto;
 	display:flex;
 	flex-direction: column;
@@ -310,7 +310,7 @@ opacity: 0.5;
 {
 	
 	justify-content: center;
-	background-color:#009688;
+	background-color:#579C87;
 	border-radius: 5px;
 	text-align: center;
 	margin-top: 10px;
@@ -375,7 +375,7 @@ a.papa :hover
 footer
 {
 
-width: 40%;
+width: 100%;
 margin-right: auto;
 margin-left: auto;
 display:flex;
@@ -399,6 +399,7 @@ article p
 {
 	background-color: #EDEFEF;
 	text-align: justify;
+  margin: auto;
 
 }
 
@@ -426,7 +427,7 @@ h2{
 
 h3{
    min-width: 170px;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: abecedaryregular,Arial,sans-serif;
   max-width: 960px;
   margin: 10px auto;}
@@ -457,13 +458,13 @@ table
 {
 	font-family: abecedaryregular,Arial,sans-serif;
 	width: 100%;
-	font-size: .9rem;
+	font-size: 1.1rem;
 }
 
 td{
 	padding: 20px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align:justify;
    
     
