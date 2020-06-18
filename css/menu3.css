@@ -508,9 +508,9 @@ div.trait
 
 
 
-@media all and (max-width: 950px){
+@media all and (max-width: 680px){
 
-   #bloc_page{width:100%;background-color:#EDEFEF;padding-bottom: 500px}
+   #bloc_page{width:100%;background-color:#EDEFEF;}
     body{min-width: 400px;}
     .bouton{width: 100%;}
     footer{width: 100%;}

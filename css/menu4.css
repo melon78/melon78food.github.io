@@ -481,13 +481,13 @@ table
 {
 	font-family: deliusregular,Arial,sans-serif;
 	width: 100%;
-	font-size: .9rem;
+	font-size: 1.1rem;
 }
 
 td{
 	padding: 20px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align:justify;
    
     
@@ -532,7 +532,7 @@ div.trait
 
 @media all and (max-width: 680px){
 
-		#bloc_page{width:100% !important;background-color:#FDFFFF;padding-bottom: 500px}
+		#bloc_page{width:100%;background-color:#FDFFFF;}
 		.bouton{width: 100%;}
 		footer{width: 100%;}
 
