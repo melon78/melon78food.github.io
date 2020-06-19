@@ -324,10 +324,11 @@ div.trait
   }
 }
 
+
 @keyframes dots
 {
   50%
   {
     opacity:0;
-    transform: scale(0.7)translateY(0.5PX);
+    transform: scale(0.7)translateY(0.5PX);}
   }
