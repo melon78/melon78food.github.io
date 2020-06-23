@@ -542,9 +542,9 @@ h1
 		.bouton{width: 100%;}
 		footer{width: 100%;}
 		div.trait{width: 100%;}
-  /*  #menus{flex-direction: column;}*/
-   /*.ligne1{flex-direction: column;}*/
-   /* .ligne2{flex-direction: column;margin-top: 0px;}*/
+   #menus{flex-direction: column;}
+   .ligne1{flex-direction: column;}
+    .ligne2{flex-direction: column;margin-top: 0px;}
     .boite {width: 100%; min-height: 300px;}
       #M1{padding:0px;}
   /*  #M2{padding:0px;}*/
