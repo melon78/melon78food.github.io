@@ -441,6 +441,27 @@ div#note3
   }
 }
 
+
+@media all and (min-width: 1440px){
+
+footer{width: 100%;min-height: 100px; padding:0px; justify-content: space-between;}
+.bas{margin-bottom: 100px;}
+.lanote h4{font-size:1.7em;}
+div#note3 {width: 70px;height: 70px;}
+.papa{padding-top:15px;}
+.mention{padding-left: 20px;}
+.contact{padding-right: 20px;}
+.papa p{font-size: 50px;}
+h3{font-size: 2em;}
+table{font-size: 1.5em;}
+h1{font-size: 4em;}
+
+
+
+
+
+}
+
 @keyframes dots
 {
   50%

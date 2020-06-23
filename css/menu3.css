@@ -331,6 +331,23 @@ div.trait
   }
 }
 
+
+@media all and (min-width: 1440px){
+
+footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
+
+
+.papa{padding-top:15px;}
+.mention{padding-left: 20px;}
+.contact{padding-right: 20px;}
+.papa p{font-size: 50px;}
+h3{font-size: 2em;}
+table{font-size: 1.5em;}
+h1{font-size: 4em;}
+section{padding-bottom: 200px;}
+
+}
+
 @keyframes dots
 {
   50%{opacity:0;
