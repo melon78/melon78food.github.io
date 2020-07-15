@@ -567,9 +567,9 @@ h1
 
 @media all and (min-width: 768px) {
 
-footer{width: 100%; min-height: 70px;padding:0px; justify-content: space-between;margin-bottom:0px; }
-.bouton{margin-bottom: 50px;min-height: 65px;}
-.boite {width: 100%; min-height: 500px; max-width: 380px;}
+footer{width: 100%; min-height: 70px;padding:0px; justify-content: space-between; }
+.bouton{margin-bottom:80px;min-height: 65px;}
+.boite {width: 100%; min-height: 480px; max-width: 350px;}
 .loading{margin-top: 5px;}
 .mention{padding-left: 20px;}
 .contact{padding-right: 20px;}
@@ -579,6 +579,8 @@ h1{font-size: 3em;}
 #fond2{padding-top: 60px;}
 #fond3{padding-top: 60px;}
 #fond4{padding-top: 60px;}
+#menus{margin-bottom:0px ;}
+
 
 }
 
@@ -621,13 +623,21 @@ margin-bottom: -25px;
 
 }
 
+@media all and (min-width: 1024px) {
+	footer{width: 100%;min-height: 120px;padding:0px; justify-content: space-between;margin-top: 0px;}
+	.boite {min-height: 650px; max-width: 450px;}
+	#menus{margin-top: 30px;margin-bottom: 30px;}
+	.bouton{margin-bottom: 0px;}
+	.mention{padding-left: 20px;padding-top: 20px;}
+    .contact{padding-right: 20px;padding-top: 20px;}
+	}
 
 	
 @media all and (min-width: 1080px) {
 footer{width: 100%;min-height: 120px;padding:0px; justify-content: space-between;margin-top: 0px;}
 .boite {min-height: 650px; max-width: 450px;}
 #menus{margin-top: 30px;margin-bottom: 30px;}
-.bouton{margin-bottom: 0px;}
+.bouton{margin-bottom: 110px;}
 }
 
 
@@ -636,7 +646,7 @@ footer{width: 100%;min-height: 120px;padding:0px; justify-content: space-between
 {
 
 .boite {width: 100%; min-height: 780px; max-width: 610px;}
-.bouton{width: 50%; min-height: 110px; margin-bottom: 100px;}
+.bouton{width: 50%; min-height: 110px; margin-bottom: 150px;}
 
 footer{width: 100%;min-height: 120px;padding:0px; justify-content: space-between;}
 p{font-size: 50px;margin: 0px;}
