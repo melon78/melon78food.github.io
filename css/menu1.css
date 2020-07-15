@@ -497,7 +497,7 @@ div.note{width: 200px;height:170px ;}
 }
 
 @media all and (min-width: 2560px){
-  section{width:80%;}
+  section{width:75%;}
   h3{font-size: 3.5em;}
   table{font-size: 4em;}
   h1{font-size:8em;}
@@ -506,6 +506,7 @@ div.note{width: 200px;height:170px ;}
 div#note3 {width: 180px;height: 150px;}
 div.note{width: 260px;height:210px ;}
 h2{font-size:8em;}
+h3{font-size:3.5em ;letter-spacing: 0.6em;}
 
 }
 

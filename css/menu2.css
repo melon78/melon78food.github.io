@@ -1,8 +1,9 @@
-@import 'polices.css';
 
+@import 'polices.css';
 body
 {
   margin:0px;
+  background-color: #FFF5FE;
 }
 
 #bloc_page /* le contenru de ma page*/
@@ -112,9 +113,6 @@ a
   min-width: 200px;
 }
 
-
-
-
 p
 {
   color: #FDD835;
@@ -210,7 +208,6 @@ h3
 {
   overflow: hidden;
   text-align: center;
-
 }
 
 table
@@ -309,77 +306,212 @@ div.trait
     width: 100%;
   }
 }
+
 @media all and (max-width: 768px)
 {
-  h2{font-size: 1.5em;}
-  h1{font-size: 2em;}
-.mention{padding-left: 20px;}
-.contact{padding-right: 20px;}
-
-}
-
-@media all and (min-width: 1024px){
-footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
-h2{font-size: 2em;}
-h1{font-size: 3em;}
-.mention{padding-left: 20px;}
-.contact{padding-right: 20px;}
-
-}
-
-
-
-
-@media all and (min-width: 1440px){
-
-footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
-
-
-.papa{padding-top:15px;}
-.mention{padding-left: 20px;}
-.contact{padding-right: 20px;}
-.papa p{font-size: 50px;}
-h3{font-size: 2em;}
-table{font-size: 1.5em;}
-h1{font-size: 4em;}
-h2{font-size: 3em;}
-section{padding-bottom: 150px;width: 80%;}
-}
-
-
-
-@media all and (min-width: 2560px){
-
-table
-{
-  width: 100%;
-  font-size: 3rem;
+  h2
+  {
+    font-size: 1.5em;
   }
 
-  h3{font-size: 3.5em;}
+  h1
+  {
+    font-size: 2em;
+  }
 
-.bas{margin-bottom: 200px;}
-.lanote h4{font-size:3.5em;}
-div#note3 {width: 150px;height: 150px;}
-h2{font-size: 7em;}
-div.note{ width: 300px;
-  height: 250px;}
-h1{font-size: 9em;}
+  .mention
+  {
+    padding-left: 20px;
+  }
 
-footer{width: 100%; min-height: 200px;padding:0px; justify-content: space-between;}
-.papa{padding-top:30px;}
-.papa p {font-size: 80px;margin-right: 20px;}
-.mention{padding-left: 40px;}
-.contact{padding-right: 50px;}
-
-.chic3{margin-bottom: 200px;}
+  .contact
+  {
+    padding-right: 20px;
+  }
 }
 
+@media all and (min-width: 1024px)
+{
+  footer
+  {
+    width: 100%;
+    min-height: 50px;
+    padding:0px;
+    justify-content: space-between;
+  }
+
+  h2
+  {
+    font-size: 2em;
+  }
+
+  h1
+  {
+    font-size: 3em;
+  }
+
+  .mention
+  {
+    padding-left: 20px;
+  }
+
+  .contact
+  {
+    padding-right: 20px;
+  }
+}
+
+@media all and (min-width: 1440px)
+{
+  footer
+  {
+    width: 100%;
+    min-height: 50px;
+    padding:0px;
+    justify-content: space-between;
+  }
+
+  .papa
+  {
+    padding-top:15px;
+  }
+
+  .mention
+  {
+    padding-left: 20px;
+  }
+
+  .contact
+  {
+    padding-right: 20px;
+  }
+
+  .papa p
+  {
+    font-size: 50px;
+  }
+
+  h3
+  {
+    font-size: 2em;
+  }
+
+  table
+  {
+    font-size: 1.5em;
+  }
+
+  h1
+  {
+    font-size: 4em;
+  }
+
+  h2
+  {
+    font-size: 3em;
+  }
+
+  section
+  {
+    padding-bottom: 150px;
+    width: 80%;
+  }
+
+  td{padding:20px;}
+}
+
+@media all and (min-width: 2560px)
+{
+  table
+  {
+    width: 100%;
+    font-size: 3rem;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  
+    
+  }
+td{padding:50px;}
+ 
+
+  h3
+  {
+    font-size: 3.5em;
+  }
+
+  .bas
+  {
+    margin-bottom: 200px;
+  }
+
+  .lanote h4
+  {
+    font-size:3.5em;
+  }
+
+  div#note3
+  {
+    width: 150px;
+    height: 150px;
+  }
+
+  h2
+  {
+    font-size: 7em;
+  }
+
+  div.note
+  {
+    width: 300px;
+    height: 250px;
+  }
+
+  h1
+  {
+    font-size: 9em;
+  }
+
+  footer
+  {
+    width: 100%;
+    min-height: 200px;
+    padding:0px;
+    justify-content: space-between;
+  }
+
+  .papa
+  {
+    padding-top:30px;
+  }
+
+  .papa p
+  {
+    font-size: 80px;
+    margin-right: 20px;
+  }
+
+  .mention
+  {
+    padding-left: 40px;
+  }
+
+  .contact
+  {
+    padding-right: 50px;
+  }
+
+  .chic3
+  {
+    margin-bottom: 200px;
+  }
+}
 
 @keyframes dots
 {
   50%
   {
     opacity:0;
-    transform: scale(0.7)translateY(0.5PX);}
+    transform: scale(0.7)translateY(0.5PX);
   }
+
+}
