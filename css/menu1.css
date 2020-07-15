@@ -2,6 +2,7 @@
 body
 {
   margin:0px;
+  background-color: #fcdfd8;
 
 }
 
@@ -446,6 +447,14 @@ div#note3
   }
 }
 
+@media all and (min-width: 768px){
+  footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
+  .mention{padding-left: 20px;}
+  .contact{padding-right: 20px;}
+ 
+
+}
+
 @media all and (min-width: 1024px){
 
 table{font-size: 1.5em;}
@@ -459,55 +468,44 @@ h3{font-size: 1.6em;}
 div#note3 {width: 90px;height: 80px;}
 
 .mention{padding-left: 0px;}
-.contact{padding-left: 662px;}
+.contact{padding-right: 20px;}
+body  {background-color: #fcdfd8;}
 
 }
+
+@media all and (min-width: 1080px) {
+  footer{width: 100%;min-height: 50px;padding:0px; justify-content: space-between;margin-top: 0px;}
+ body  {background-color: #fcdfd8;}
+  
+  }
 
 @media all and (min-width: 1440px){
 
 footer{width: 100%;min-height: 100px; padding:0px; justify-content: space-between;}
-
-.bas{margin-bottom: 100px;}
-.lanote h4{font-size:1.7em;}
-div#note3 {width: 70px;height: 70px;}
-.papa{padding-top:5px;}
+section{width:80%;}
+h3{font-size: 2.5em;}
+table{font-size: 2.1em;}
+h1{font-size: 5em;}
+h2{font-size: 6em;}
+h3{font-size:2.5em ;letter-spacing: 0.3em;}
 .mention{padding-left: 20px;}
 .contact{padding-right: 20px;}
-.papa p{font-size: 45px;}
-h3{font-size: 2.5em;}
-table{font-size: 1.5em;}
-h1{font-size: 4em;}
-h2{font-size: 4em;}
-div.note{   width: 200px;
-  height: 150px; }
-
-
-@media all and (min-width: 2560px){
-
-table
-{
-  width: 100%;
-  font-size: 3.5rem;
-  }
-
-  h3{font-size: 4em;}
-
-.bas{margin-bottom: 200px;}
-.lanote h4{font-size:3.5em;}
-div#note3 {width: 150px;height: 150px;}
-h2{font-size: 7em;}
-div.note{ width: 300px;
-  height: 250px;}
-h1{font-size: 9em;}
-
-footer{width: 100%; min-height: 200px;padding:0px; justify-content: space-between;}
-.papa{padding-top:30px;}
-.papa p {font-size: 80px;margin-right: 20px;}
-.mention{padding-left: 30px;}
-.contact{padding-right: 30px;}
+.papa p{font-size: 35px;}
+.lanote h4{font-size:3em;}
+div#note3 {width: 120px;height: 90px;}
+div.note{width: 200px;height:170px ;}
 }
 
-
+@media all and (min-width: 2560px){
+  section{width:80%;}
+  h3{font-size: 3.5em;}
+  table{font-size: 4em;}
+  h1{font-size:8em;}
+.papa p{font-size: 50px;}
+.lanote h4{font-size:4em;}
+div#note3 {width: 180px;height: 150px;}
+div.note{width: 260px;height:210px ;}
+h2{font-size:8em;}
 
 }
 

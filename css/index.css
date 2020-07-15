@@ -586,45 +586,6 @@ h1{font-size: 3em;}
 
 
 
-
-/*
-@media all and (min-width: 1024px) {
-
-/*footer{width: 100%; min-height: 50px;padding:0px; justify-content: space-between;margin-top: 600px;}
-.boite{height: 0px;}
-.mention{padding-left: 20px;}
-.contact{padding-right: 20px;}
-.bouton{width: 50%; min-height: 50px;}
-.ligne2{margin-bottom: 0px;}
-p{font-size: 30px;margin: 0px;}
-.loading{margin-top: 10px;}
-h1{font-size: 4em;}
-.boite{max-height: 200px;}
-#fond2{padding-top: 160px;}
-#fond3{padding-top: 150px;}
-#fond4{padding-top: 140px;}
-
-#M1{font-size: 2.2em;}
-#M2{font-size: 2.2em;}
-#M3{font-size: 2.2em;}
-#M4{font-size: 2.2em;}
-#fond3 h2{font-size:1.5em;}
-#fond4 h2{font-size:1.5em;}
-#fond2 h2{font-size: 1.2em;}
-#fond1 h2{font-size: 1.7em;}
-
-
-div.note{ 
-width: 80px;
-height: 80px;
-margin-bottom: -25px;
-
- }
-
-
-
-}
-*/
 @media all and (min-width: 1024px) {
 	footer{width: 100%;min-height: 120px;padding:0px; justify-content: space-between;margin-top: 0px;}
 	.boite {min-height: 650px; max-width: 450px;}
