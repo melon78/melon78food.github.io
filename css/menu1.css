@@ -2,6 +2,7 @@
 body
 {
   margin:0px;
+
 }
 
 #bloc_page /* le contenru de ma page*/
@@ -9,10 +10,12 @@ body
 {
   width: 100%;
   margin:auto;
+ 
   display:flex;
   flex-direction: column;
   justify-content: center;
   padding-bottom: 50px;
+  background-color: #fcdfd8;
 }
 
 header
@@ -37,6 +40,7 @@ section
   justify-content: center;
   margin-top: 20px;
   margin-bottom:20px;
+  width: 75%;
 }
 
 /*article
@@ -279,6 +283,7 @@ h3
   font-family: kalamlight,Arial,sans-serif;
   max-width: 960px;
   margin: 10px auto;
+
 }
 
 .title
@@ -441,22 +446,66 @@ div#note3
   }
 }
 
+@media all and (min-width: 1024px){
+
+table{font-size: 1.5em;}
+section{width: 80%;
+}
+h3{font-size: 1.6em;}
+
+
+.bas{margin-bottom: 50px;}
+.lanote h4{font-size:1.8em;}
+div#note3 {width: 90px;height: 80px;}
+
+.mention{padding-left: 0px;}
+.contact{padding-left: 662px;}
+
+}
 
 @media all and (min-width: 1440px){
 
 footer{width: 100%;min-height: 100px; padding:0px; justify-content: space-between;}
+
 .bas{margin-bottom: 100px;}
 .lanote h4{font-size:1.7em;}
 div#note3 {width: 70px;height: 70px;}
-.papa{padding-top:15px;}
+.papa{padding-top:5px;}
 .mention{padding-left: 20px;}
 .contact{padding-right: 20px;}
-.papa p{font-size: 50px;}
-h3{font-size: 2em;}
+.papa p{font-size: 45px;}
+h3{font-size: 2.5em;}
 table{font-size: 1.5em;}
 h1{font-size: 4em;}
+h2{font-size: 4em;}
+div.note{   width: 200px;
+  height: 150px; }
 
 
+@media all and (min-width: 2560px){
+
+table
+{
+  width: 100%;
+  font-size: 3.5rem;
+  }
+
+  h3{font-size: 4em;}
+
+.bas{margin-bottom: 200px;}
+.lanote h4{font-size:3.5em;}
+div#note3 {width: 150px;height: 150px;}
+h2{font-size: 7em;}
+div.note{ width: 300px;
+  height: 250px;}
+h1{font-size: 9em;}
+
+footer{width: 100%; min-height: 200px;padding:0px; justify-content: space-between;}
+.papa{padding-top:30px;}
+.papa p {font-size: 80px;margin-right: 20px;}
+.mention{padding-left: 30px;}
+.contact{padding-right: 30px;}
+}
 
 
 

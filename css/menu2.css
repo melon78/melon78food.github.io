@@ -14,6 +14,7 @@ body
   flex-direction: column;
   justify-content: center;
   padding-bottom: 50px;
+  background-color: #FFF5FE;
 }
 
 header
@@ -38,6 +39,7 @@ section
   justify-content: center;
   margin-top: 20px;
   margin-bottom:20px;
+  width: 70%;
 }
 
 article
@@ -110,25 +112,8 @@ a
   min-width: 200px;
 }
 
-.loading span
-{
-  width: 8px;
-  height: 8px;
-  margin :0 5px;
-  background-color: #ffd957;
-  border-radius: 50%;
-  display: inline-block;
-  animation-name: dots;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
 
-.loading span:nth-child(3)
-{
-  background-color:#ff8b57;
-  animation-delay: 0.6s;
-}
+
 
 p
 {
@@ -209,7 +194,7 @@ h2
 {
   text-align: center;
   font-family: croissant_oneregular,Arial,sans-serif;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 h3
@@ -225,6 +210,7 @@ h3
 {
   overflow: hidden;
   text-align: center;
+
 }
 
 table
@@ -239,8 +225,8 @@ table
 
 td
 {
-  padding: 20px;
-  padding-top: 10px;
+  padding: 30px;
+  padding-top: 20px;
   padding-bottom: 10px;
   text-align:justify;
 }
@@ -323,6 +309,23 @@ div.trait
     width: 100%;
   }
 }
+@media all and (max-width: 768px)
+{
+  h2{font-size: 1.5em;}
+  h1{font-size: 2em;}
+.mention{padding-left: 20px;}
+.contact{padding-right: 20px;}
+
+}
+
+@media all and (min-width: 1024px){
+footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
+h2{font-size: 2em;}
+h1{font-size: 3em;}
+.mention{padding-left: 20px;}
+.contact{padding-right: 20px;}
+
+}
 
 
 
@@ -339,6 +342,37 @@ footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between
 h3{font-size: 2em;}
 table{font-size: 1.5em;}
 h1{font-size: 4em;}
+h2{font-size: 3em;}
+section{padding-bottom: 150px;width: 80%;}
+}
+
+
+
+@media all and (min-width: 2560px){
+
+table
+{
+  width: 100%;
+  font-size: 3rem;
+  }
+
+  h3{font-size: 3.5em;}
+
+.bas{margin-bottom: 200px;}
+.lanote h4{font-size:3.5em;}
+div#note3 {width: 150px;height: 150px;}
+h2{font-size: 7em;}
+div.note{ width: 300px;
+  height: 250px;}
+h1{font-size: 9em;}
+
+footer{width: 100%; min-height: 200px;padding:0px; justify-content: space-between;}
+.papa{padding-top:30px;}
+.papa p {font-size: 80px;margin-right: 20px;}
+.mention{padding-left: 40px;}
+.contact{padding-right: 50px;}
+
+.chic3{margin-bottom: 200px;}
 }
 
 
