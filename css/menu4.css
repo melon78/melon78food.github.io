@@ -3,6 +3,8 @@
 body
 {
 	margin:0px;
+	background-color: #EDEFEF;
+
 }
 
 #bloc_page /* le contenru de ma page*/
@@ -200,17 +202,17 @@ article p
 
 h2
 {
-	background: linear-gradient( 150deg,#0228DD 40%,#01AAFB 60%);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 3em;
+	font-family: kaushan_scriptregular,Arial, sans-serif;
+	background: linear-gradient( 150deg,#3D923A , #BEFF7F);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-h2
-{
-	text-align: center;
-	font-family: dancing_scriptregular,Arial,sans-serif;
-	font-size: 3em;
-}
+
 
 h3
 {
@@ -456,6 +458,8 @@ div.trait
 	h2
 	{
 		font-size: 5em;
+		margin-top: 100px;
+		margin-bottom: 100px;
 	}
 
 	table
@@ -505,7 +509,9 @@ div.trait
 
 	h2
 	{
-		font-size: 8em;
+		font-size: 9em;
+		margin-top: 200px;
+		margin-bottom: 200px;
 	}
 
 	div.note
@@ -516,7 +522,7 @@ div.trait
 
 	h1
 	{
-		font-size: 9em;
+		font-size: 10em;
 	}
 
 	footer
