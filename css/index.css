@@ -398,11 +398,7 @@ h3
 	margin: 10px auto;
 }
 
-.title
-{
-	overflow: hidden;
-	text-align: center;
-}
+
 
 table
 {
@@ -619,6 +615,23 @@ h1
 	}
 }
 
+@media all and (min-width: 425px)
+{
+	footer
+	{
+		width: 100%;
+		min-height: 70px;
+		padding:0px;
+		justify-content: space-between;
+	}
+	.boite{justify-content: center;padding-bottom: 10px;}
+/*	.bouton{width: 200px;}*/
+
+
+}
+
+
+
 @media all and (min-width: 768px)
 {
 	footer
@@ -797,7 +810,7 @@ h1
 	}
 }
 
-@media all and (min-width: 1080px)
+@media all and (min-width: 1080px) 
 {
 	footer
 	{
@@ -826,7 +839,7 @@ h1
 	}
 }
 
-@media all and (min-width: 1440px)
+@media all and (min-width: 1440px) 
 {
 	.boite
 	{
@@ -961,7 +974,7 @@ h1
 	}
 }
 
-@media all and (min-width: 1920px)
+@media all and (min-width: 1920px) 
 {
 	footer
 	{

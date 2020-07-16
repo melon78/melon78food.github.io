@@ -217,7 +217,7 @@ table
   font-size: 1rem;
   margin-top: 30px;
   margin-bottom:30px;
-  padding:auto;
+  
 }
 
 td
@@ -308,7 +308,20 @@ div.trait
 }
 
 @media all and (max-width: 768px)
+
+
 {
+
+  footer
+  {
+    width: 100%;
+    min-height: 50px;
+    padding:0px;
+    justify-content: space-between;
+  }
+
+
+
   h2
   {
     font-size: 1.5em;
