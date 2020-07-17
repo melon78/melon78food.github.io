@@ -625,14 +625,14 @@ h1
 		justify-content: space-between;
 	}
 	.boite{justify-content: center;padding-bottom: 10px;}
-/*	.bouton{width: 200px;}*/
+
 
 
 }
 
 
 
-@media all and (min-width: 768px)
+@media all and (min-width: 768px) 
 {
 	footer
 	{
@@ -707,7 +707,7 @@ h1
 	}
 }
 
-@media all and (min-width: 1024px)
+@media all and (min-width: 1024px) 
 {
 	footer
 	{
@@ -974,7 +974,7 @@ h1
 	}
 }
 
-@media all and (min-width: 1920px) 
+@media all and (min-width: 1920px)
 {
 	footer
 	{
