@@ -1,0 +1,22 @@
+footer p
+{
+  color: #FDD835;
+  font-size: 20px;
+}
+
+footer
+{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display:flex;
+  justify-content: space-around;
+  background-color: #579C87;
+  position:fixed;
+  bottom: 0;
+}
+
+a.papa
+{
+  display: block;
+}

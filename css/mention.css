@@ -1,27 +1,23 @@
-
-  
-@import'polices.css';
+@import 'polices.css';
+@import 'effet.css';
+@import 'footer.css';
+@import 'header.css';
 
 body
 {
-  margin:0px;
+	margin:0px;
 }
 
-
 body
 {
-
-width: 100%;
-padding-bottom:60px;
-margin: 0;
-
-}	
-
-
+	width: 100%;
+	padding-bottom:60px;
+	margin: 0;
+}
 
 #bloc_page /* le contenru de ma page*/
+
 {
-	
 	width: 100%;
 	margin:auto;
 	display: flex;
@@ -30,96 +26,29 @@ margin: 0;
 }
 
 
-footer
-{
-
-width: 100%;
-display: flex;
-justify-content: space-between;
-position: fixed;
-bottom:0; 
-background-color: #009688;
-
-}
-
-
-
-header
-{
-	display: flex;
-	justify-content: center;
-	background-color: #009688;
-		
-
-}
-
-header h1 
-{
-	color: #FDD835;
-	text-transform: lowercase;
-	font-family: truenosemibold,Arial,sans-serif;
-	letter-spacing: -2px;
-}
-
-.cadre 
+.cadre
 {
 	display: flex;
 	margin-top: 20px;
 	margin-bottom:20px;
 	padding-left: 20px;
 	padding-right: 20px;
-
 }
-
-
-
-
 
 article
-
 {
-
-text-align: justify;
-
+	text-align: justify;
 }
 
-
-a{
-
+a
+{
 	text-decoration: none;
 }
 
-
-
-
-.bouton
+p
 {
-	
-	justify-content: center;
-	background-color:#009688;
-	border-radius: 5px;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 25px;
-	width: 40%;
-	margin-right: auto;
-	margin-left: auto;
-
-
-
-
-}
-
-p{
 	color: #263238;
 	font-size: 20px;
-	
-}
-
-
-.ml
-{
- color: #FDD835;
 }
 
 .mention
@@ -127,27 +56,19 @@ p{
 	padding:5px;
 }
 
-
 .papa p
 {
 	color:#FDCB46 ;
 }
 
-
-div.mention:hover {
-  animation: none;
+div.mention:hover
+{
+	animation: none;
 }
-
-
-
-
-
 
 a.papa
 {
 	display: block;
-
-
 }
 
 a.papa :hover
@@ -155,49 +76,164 @@ a.papa :hover
 	animation: wiggle 75ms infinite;
 	animation-timing-function: linear;
 }
+@media all and (min-width: 768px){
+	footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
+	.mention{padding-left: 20px;}
+	.contact{padding-right: 20px;}
+   
+  
+  }
 
-@keyframes wiggle
+
+  @media all and (min-width: 1024px)
+  {
+	  footer
+	  {
+		  width: 100%;
+		  min-height: 100px;
+		  padding:0px;
+		  justify-content: space-between;
+	  }
+  
+	  .papa
+	  {
+		  padding-top:15px;
+	  }
+  
+	  .mention
+	  {
+		  padding-left: 20px;
+	  }
+  
+	  .contact
+	  {
+		  padding-right: 20px;
+	  }
+  
+	  footer p
+	  {
+		  font-size: 25px;
+	  }
+  
+	  article
+	  {
+		  padding-bottom: 10px;
+	  }
+  
+	  article p
+	  {
+		  font-size: 30px;
+	  }
+  
+	  h2
+	  {
+		  font-size: 2.6em;
+	  }
+  
+	  h1
+	  {
+		  font-size: 3.7em;
+	  }
+  }
+
+@media all and (min-width: 1440px)
 {
-	0% { transform: translate(2px, 0); }
-  50% { transform: translate(-2px, 0); }
-  100% { transform: translate(2px, 0); }
-}
-
-
-@media all and (max-width: 900px){
-
-		#bloc_page{width:100%;min-width: 370px;}
-		footer{width:100%}
-		
-
+	footer
+	{
+		width: 100%;
+		min-height: 100px;
+		padding:0px;
+		justify-content: space-between;
 	}
 
+	.papa
+	{
+		padding-top:15px;
+	}
 
-	@media all and (min-width: 1440px) 
-{
+	.mention
+	{
+		padding-left: 20px;
+	}
 
-footer{width: 100%;min-height: 100px;padding:0px; justify-content: space-between;}
-.papa{padding-top:15px;}
-.mention{padding-left: 20px;}
-.contact{padding-right: 20px;}
-footer p{font-size: 25px;}
-article{padding-bottom: 10px;}
-article p{font-size: 35px;}
-h2{font-size: 3em;}
-h1{font-size: 4em;}
+	.contact
+	{
+		padding-right: 20px;
+	}
+
+	footer p
+	{
+		font-size: 25px;
+	}
+
+	article
+	{
+		padding-bottom: 10px;
+	}
+
+	article p
+	{
+		font-size: 35px;
+	}
+
+	h2
+	{
+		font-size: 3em;
+	}
+
+	h1
+	{
+		font-size: 4em;
+	}
 }
 
-
-	@media all and (min-width: 2560px) 
+@media all and (min-width: 2560px)
 {
+	footer
+	{
+		width: 100%;
+		min-height: 100px;
+		padding:0px;
+		justify-content: space-between;
+	}
 
-footer{width: 100%;min-height: 100px;padding:0px; justify-content: space-between;}
-.papa{padding-top:15px;}
-.mention{padding-left: 20px;}
-.contact{padding-right: 20px;}
-footer p{font-size: 40px;}
-article{padding-bottom: 10px;}
-article p{font-size: 55px;}
-h2{font-size: 4em;}
-h1{font-size: 7em;}
+	.papa
+	{
+		padding-top:15px;
+	}
+
+	.mention
+	{
+		padding-left: 20px;
+	}
+
+	.contact
+	{
+		padding-right: 20px;
+	}
+
+	footer p
+	{
+		font-size: 40px;
+	}
+
+	article
+	{
+		padding-bottom: 10px;
+	}
+
+	article p
+	{
+		font-size: 55px;
+	}
+
+	h2
+	{
+		font-size: 4em;
+	}
+
+	h1
+	{
+		font-size: 7em;
+	}
 }

@@ -1,31 +1,4 @@
 
-@import 'effet.css';
-@import 'polices.css';
-@import 'bouton.css';
-@import 'footer.css';
-@import 'header.css';
-@import 'index_menus.css';
-
-body
-{
-	margin:0px;
-}
-
-#bloc_page /* le contenru de ma page*/
-
-{
-	width: 100%;
-	margin:auto;
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-bottom: 50px;
-}
-
-.boite
-{
-	overflow: hidden;
-}
 
 @media all and (min-width: 425px)
 {
@@ -36,15 +9,125 @@ body
 		padding:0px;
 		justify-content: space-between;
 	}
+	.boite{justify-content: center;padding-bottom: 10px;}
+
+
+}
+
+
+
+@media all and (max-width: 600px)
+{
+	#bloc_page
+	{
+		width:100%;
+	}
+
+	.bouton
+	{
+		width: 100%;
+	}
+
+	footer
+	{
+		width: 100%;
+	}
+
+	div.trait
+	{
+		width: 100%;
+	}
+
+	#menus
+	{
+		flex-direction: column;
+	}
+
+	.ligne1
+	{
+		flex-direction: column;
+	}
+
+	.ligne2
+	{
+		flex-direction: column;
+		margin-top: 0px;
+	}
 
 	.boite
 	{
-		justify-content: center;
-		padding-bottom: 10px;
+		width: 100%;
+		min-height: 300px;
+	}
+
+	#M1
+	{
+		padding:0px;
+	}
+
+	
+	#M3
+	{
+		padding:0px;
+	}
+
+	#M4
+	{
+		padding:0px;
+	}
+
+
+	#fond1 h2
+	{
+		padding: 0px;
+	}
+
+	
+	.note h2
+	{
+		margin:0px;
+	}
+
+	h2
+	{
+		margin:0px;
+	}
+
+	#fond2
+	{
+		min-height: 100px;
+		margin:0px;
+	}
+
+	#fond3
+	{
+		min-height: 100px;
+		margin:0px;
+	}
+
+	#fond4
+	{
+		min-height: 100px;
+		margin:0px;
+	}
+
+	#fond1
+	{
+		min-height: 100px;
+		margin:0px;
+	}
+
+	.loading
+	{
+		margin-top: 3px;
 	}
 }
 
-@media all and (min-width: 768px)
+
+
+
+
+@media all and (min-width: 768px) 
 {
 	footer
 	{
@@ -119,7 +202,7 @@ body
 	}
 }
 
-@media all and (min-width: 1024px)
+@media all and (min-width: 1024px) 
 {
 	footer
 	{
@@ -222,7 +305,7 @@ body
 	}
 }
 
-@media all and (min-width: 1080px)
+@media all and (min-width: 1080px) 
 {
 	footer
 	{
@@ -251,7 +334,7 @@ body
 	}
 }
 
-@media all and (min-width: 1440px)
+@media all and (min-width: 1440px) 
 {
 	.boite
 	{
@@ -266,6 +349,8 @@ body
 		min-height: 110px;
 		margin-bottom: 150px;
 	}
+
+	
 
 	p
 	{
