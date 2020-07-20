@@ -27,10 +27,20 @@ body
 	overflow: hidden;
 }
 
+@media all and (min-width: 425px)
+{
+
+
+}
+
+
 
 
 @media all and (min-width: 768px)
 {
+
+
+	
 	footer
 	{
 		width: 100%;
@@ -44,12 +54,21 @@ body
 		margin-bottom:80px;
 		min-height: 65px;
 	}
+	
+
+
+	p
+	{
+		font-size: 30px;
+		margin: 0px;
+	
+	}
 
 	.boite
 	{
 		width: 100%;
-		min-height: 480px;
-		max-width: 300px;
+		max-height: 100px;
+		max-width: 400px;
 
 	}
 
@@ -107,18 +126,18 @@ body
 
 @media all and (max-width: 1024px)
 {
-	footer
+	h1
 	{
-		width: 100%;
-		min-height: 120px;
-		padding:0px;
-		justify-content: space-between;
-		margin-top: 0px;
+		font-size: 4em;
 	}
+
+	footer{width: 100%;min-height: 120px;padding: 0px;justify-content: space-between;}
+
+    footer p{font-size: 40px;margin:5px;}
 
 	.boite
 	{
-		min-height: 650px;
+		min-height: 600px;
 		max-width: 450px;
 	}
 
@@ -130,8 +149,30 @@ body
 
 	.bouton
 	{
-		margin-bottom: 0px;
+		width: 50%;
+		min-height: 110px;
+		margin-bottom: 150px;
 	}
+
+	p
+	{
+		font-size: 40px;
+		margin: 0px;
+	
+	}
+
+	.loading span
+	{
+		width: 12px;
+		height: 12px;
+
+	}
+
+	.loading
+	{
+		margin-top: 20px;
+	}
+
 
 	.mention
 	{
@@ -145,12 +186,7 @@ body
 		padding-top: 20px;
 	}
 
-	.bouton
-	{
-		width: 50%;
-		min-height: 110px;
-		margin-bottom: 150px;
-	}
+	
 
 	#fond2
 	{
@@ -169,45 +205,45 @@ body
 
 	#M1
 	{
-		font-size: 2.2em;
+		font-size: 2.5em;
 	}
 
 	#M2
 	{
-		font-size: 2.2em;
+		font-size: 2.5em;
 	}
 
 	#M3
 	{
-		font-size: 2.2em;
+		font-size: 2.5em;
 	}
 
 	#M4
 	{
-		font-size: 2.2em;
+		font-size: 2.5em;
 	}
 
 	#fond3 h2
 	{
-		font-size:1.5em;
+		font-size:1.8em;
 	}
 
 	#fond4 h2
 	{
-		font-size:1.5em;
+		font-size:1.8em;
 	}
 
 	#fond2 h2
 	{
-		font-size: 1.2em;
+		font-size: 1.8em;
 	}
 
 	#fond1 h2
 	{
-		font-size: 1.7em;
+		font-size: 2.1em;
 	}
 }
-
+/*
 @media all and (min-width: 1080px)
 {
 	footer
@@ -236,9 +272,15 @@ body
 		margin-bottom: 110px;
 	}
 }
-
+*/
 @media all and (min-width: 1440px)
 {
+
+	h1
+	{
+		font-size: 5em;
+	}
+
 	.boite
 	{
 		width: 100%;
@@ -250,18 +292,25 @@ body
 	{
 		width: 50%;
 		min-height: 110px;
-		margin-bottom: 150px;
+		margin-bottom: 180px;
+		margin-top: 80px;
 	}
 
 	p
 	{
 		font-size: 50px;
 		margin: 0px;
+	
 	}
+	
+footer{width: 100%;min-height: 150px;padding: 0px;justify-content: space-between;}
+
+footer p{font-size: 60px;margin:5px;}
+
 
 	.papa
 	{
-		padding-top:15px;
+		padding-top:30px;
 	}
 
 	.mention
@@ -321,10 +370,7 @@ body
 		font-size: 2.3em;
 	}
 
-	h1
-	{
-		font-size: 4em;
-	}
+	
 
 	#fond3 h2
 	{
@@ -363,7 +409,7 @@ body
 		font-size: 4em;
 	}
 }
-
+/*
 @media all and (min-width: 1920px)
 {
 	footer
@@ -387,79 +433,27 @@ body
 		margin-top: 50px;
 	}
 }
-/*
+*/
 @media all and (min-width: 2560px)
-{
-
-footer
-	{
-		width: 100%;
-		min-height: 200px;
-		padding:0px;
-		justify-content: space-between;
+{	
+h1{font-size: 9em;}
+.boite{width: 100%;min-height: 1250px;min-width: 1000px;padding-top: 50px;}
+.bouton{	
+		width: 50%;			
+		min-height: 200px;			
+		margin-bottom: 280px;	
+		border-radius: 20px;		
 	}
 
-.boite
-	{
-		width: 100%;
-		min-height: 1250px;
-		max-width: 1000px;
-	}
+#fond1{margin-right: 40px;}
+#fond2{margin-left: 40px;}
+#fond3{margin-right: 40px;}
+#fond4{margin-left: 40px;}
 
-	.bouton
-	{
-		width: 50%;
-		min-height: 200px;
-		margin-bottom: 250px;
-	}
 
-.papa
-	{
-		padding-top:30px;
-	}
 
-	
-	
-
-	footer p
-	{
-		font-size: 40px;
-	}
-
-	
-	p
-	{
-		font-size: 80px;
-		margin: 5px;
-	}
-
-	.papa
-	{
-		padding-top:30px;
-	}
-
-	.mention
-	{
-		padding-left: 30px;
-	}
-
-	.contact
-	{
-		padding-right: 30px;
-	}
-
-	.loading span
-	{
-		width: 20px;
-		height: 20px;
-	}
-
-	.loading
-	{
-		margin-top: 40px;
-	}
-
-	#M1
+/* gestion des menus  debut...*/
+#M1
 	{
 		font-size: 9em;
 		margin-top: 0px;
@@ -473,7 +467,7 @@ footer
 	#M3
 	{
 		font-size: 9em;
-		margin-top:50px;
+		margin-top:100px;
 	}
 
 	#M4
@@ -497,9 +491,24 @@ footer
 		font-size:6em;
 	}
 
+	#fond4 h2
+	{
+		font-size:6em;
+	}
+
+	#fond3
+	{
+		padding-top: 210px;
+	}
+
 	#fond4
 	{
 		padding-top: 190px;
+	}
+
+	#fond2
+	{
+		padding-top: 270px;
 	}
 
 	div.note
@@ -513,17 +522,15 @@ footer
 	{
 		font-size: 6em;
 	}
-}*/
+/*gestion des menus fin */
 
-@media all and (min-width: 2560px)
-{
-	.boite{width: 100%;min-height: 1250px;min-width: 1000px;}
 
-    .bouton{	
-		width: 50%;			
-		min-height: 200px;			
-		margin-bottom: 250px;			
-	}
+
+
+    .loading span{width: 25px; height: 25px; border-radius: 50%;}
+	.loading{margin-top: 25px;}
+	p{font-size: 90px;margin: 5px;}
+
 
 footer{width: 100%;min-height: 200px;padding: 0px;justify-content: space-between;}
 
@@ -532,11 +539,5 @@ footer p{font-size: 80px;margin:5px;}
 .papa{margin-top: 30px;}
 .mention{padding-left: 30px;}
 .contact{padding-right: 30px;}
-.loading span{width: 20px; height: 20px;}
-.loading {margin-top: 40px;}
-p{font-size: 80px;margin: 5px;}
-
-h1{font-size: 9em;}
-
 
 }
