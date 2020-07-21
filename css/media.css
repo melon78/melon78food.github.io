@@ -1,0 +1,107 @@
+@media all and (min-width: 2560px)
+{	
+h1{font-size: 9em;}
+.boite{width: 100%;min-height: 1250px;min-width: 1000px;padding-top: 50px;}
+.bouton{	
+		width: 50%;			
+		min-height: 200px;			
+		margin-bottom: 280px;	
+		border-radius: 20px;		
+	}
+
+#fond1{margin-right: 40px;}
+#fond2{margin-left: 40px;}
+#fond3{margin-right: 40px;}
+#fond4{margin-left: 40px;}
+
+
+
+
+#M1
+	{
+		font-size: 9em;
+		margin-top: 0px;
+	}
+
+	#M2
+	{
+		font-size: 9em;
+	}
+
+	#M3
+	{
+		font-size: 9em;
+		margin-top:100px;
+	}
+
+	#M4
+	{
+		font-size: 9em;
+		margin-top: 0px;
+	}
+
+	#fond2 h2
+	{
+		font-size: 4.3em;
+	}
+
+	h1
+	{
+		font-size: 9em;
+	}
+
+	#fond3 h2
+	{
+		font-size:6em;
+	}
+
+	#fond4 h2
+	{
+		font-size:6em;
+	}
+
+	#fond3
+	{
+		padding-top: 210px;
+	}
+
+	#fond4
+	{
+		padding-top: 190px;
+	}
+
+	#fond2
+	{
+		padding-top: 270px;
+	}
+
+	div.note
+	{
+		width: 150px;
+		height: 150px;
+		margin-bottom: -70px;
+	}
+
+	#fond1 h2
+	{
+		font-size: 6em;
+	}
+
+
+
+
+
+    .loading span{width: 25px; height: 25px; border-radius: 50%;}
+	.loading{margin-top: 25px;}
+	p{font-size: 90px;margin: 5px;}
+
+
+footer{width: 100%;min-height: 200px;padding: 0px;justify-content: space-between;}
+
+footer p{font-size: 80px;margin:5px;}
+
+.papa{margin-top: 30px;}
+.mention{padding-left: 30px;}
+.contact{padding-right: 30px;}
+
+}

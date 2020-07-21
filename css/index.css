@@ -30,6 +30,10 @@ body
 @media all and (min-width: 425px)
 {
 
+	.ligne1{flex-direction: column; align-items: center;}
+	.ligne2{flex-direction: column;align-items: center;margin-top:0px;}
+	.boite{width: 100%;}
+	.papa{font-size: 2px;}
 
 }
 
@@ -39,8 +43,8 @@ body
 @media all and (min-width: 768px)
 {
 
-
-	
+	.ligne1{flex-direction: row;}
+	.ligne2{flex-direction: row;}
 	footer
 	{
 		width: 100%;
@@ -327,7 +331,7 @@ footer p{font-size: 60px;margin:5px;}
 	{
 		width: 15px;
 		height: 15px;
-		margin :0 7px;
+		margin : 7px;
 		background-color: #ffd957;
 		border-radius: 50%;
 		display: inline-block;
@@ -434,6 +438,9 @@ footer p{font-size: 60px;margin:5px;}
 	}
 }
 */
+
+
+
 @media all and (min-width: 2560px)
 {	
 h1{font-size: 9em;}
@@ -452,7 +459,7 @@ h1{font-size: 9em;}
 
 
 
-/* gestion des menus  debut...*/
+
 #M1
 	{
 		font-size: 9em;
@@ -522,7 +529,7 @@ h1{font-size: 9em;}
 	{
 		font-size: 6em;
 	}
-/*gestion des menus fin */
+
 
 
 
