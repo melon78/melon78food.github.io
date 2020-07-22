@@ -1,22 +1,20 @@
-footer p
-{
-  color: #FDD835;
-  font-size: 20px;
-}
+
 
 footer
 {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #579C87;
   position:fixed;
   bottom: 0;
 }
 
-a.papa
+footer p
 {
-  display: block;
+  color: #FDD835;
+  font-size: 20px;
 }
+.mention {padding-left: 20px;}
+.contact{padding-right: 20px;}
+

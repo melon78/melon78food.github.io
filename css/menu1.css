@@ -164,6 +164,16 @@ div#note3
   height: 50px;
 }
 
+
+
+@media all and (min-width: 768px){
+  footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
+  .mention{padding-left: 20px;}
+  .contact{padding-right: 20px;}
+ 
+
+}
+
 @media all and (max-width: 950px)
 {
   #bloc_page
@@ -187,26 +197,14 @@ div#note3
   }
 }
 
-@media all and (min-width: 768px){
-  footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
-  .mention{padding-left: 20px;}
-  .contact{padding-right: 20px;}
- 
-
-}
-
 @media all and (min-width: 1024px){
 
 table{font-size: 1.5em;}
-section{width: 80%;
-}
+section{width: 80%;}
 h3{font-size: 1.6em;}
-
-
 .bas{margin-bottom: 50px;}
 .lanote h4{font-size:1.8em;}
 div#note3 {width: 90px;height: 80px;}
-
 .mention{padding-left: 20px;}
 .contact{padding-right: 20px;}
 body  {background-color: #fcdfd8;}
