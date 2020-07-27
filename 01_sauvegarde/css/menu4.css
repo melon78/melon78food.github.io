@@ -1,0 +1,392 @@
+
+@import 'polices.css';
+@import 'effet.css';
+@import 'footer.css';
+@import 'header.css';
+
+body
+{
+	margin:0px;
+	background-color: #EDEFEF;
+}
+
+#bloc_page /* le contenru de ma page*/
+
+{
+	width: 100%;
+	margin:auto;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 50px;
+	background-color: #EDEFEF;
+}
+
+section
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom:20px;
+	width: 75%;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#fond
+{
+	background-color: #EDEFEF;
+	text-align: justify;
+	margin: auto;
+}
+
+#fond p
+{
+	font-size: 16px;
+	font-stretch: ultra-expanded;
+}
+
+h2
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 3em;
+	font-family: kaushan_scriptregular,Arial, sans-serif;
+	background: linear-gradient( 150deg,#3D923A , #BEFF7F);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h3
+{
+	min-width: 170px;
+	font-size: 1.5em;
+	font-family: abecedaryregular,Arial,sans-serif;
+	max-width: 960px;
+	margin: 10px auto;
+}
+
+h3 a
+{
+	text-decoration: none;
+	color:inherit;
+	background: linear-gradient(to top,rgba(38,166,154 ,1)0%, rgba(38,166,154 ,1) 8%,transparent 8.01%) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .9s;
+}
+
+h3 a:hover
+{
+	background-size: 100% 100%;
+}
+
+
+.nom
+{
+	overflow: hidden;
+	text-align: center;
+}
+
+table
+{
+	font-family: abecedaryregular,Arial,sans-serif;
+	width: 100%;
+	font-size: 1.1rem;
+}
+
+td
+{
+	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align:justify;
+}
+
+td.prix
+{
+	text-align: right;
+}
+
+
+div.trait
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.trait img
+{
+	max-width: 100%;
+}
+
+@media all and (max-width: 768px)
+{
+	footer
+	{
+		width: 100%;
+		min-height: 50px;
+		padding:0px;
+		justify-content: space-between;
+	}
+
+	section
+	{
+		padding-bottom: 300px;
+	}
+
+	#bloc_page
+	{
+		width:100%;
+		background-color:#EDEFEF;
+	}
+
+	section
+	{
+		width: 90%;
+	}
+
+	body
+	{
+		min-width: 400px;
+	}
+
+	.bouton
+	{
+		width: 100%;
+	}
+
+	footer
+	{
+		width: 100%;
+	}
+
+	div.trait
+	{
+		width: 100%;
+	}
+
+	h1
+	{
+		font-size: 2.1em;
+	}
+
+	.mention
+	{
+		padding-left: 20px;
+	}
+
+	.contact
+	{
+		padding-right: 20px;
+	}
+}
+
+@media all and (min-width: 1024px)
+{
+	footer
+	{
+		width: 100%;
+		min-height: 50px;
+		padding:0px;
+		justify-content: space-between;
+	}
+
+	h2
+	{
+		font-size: 2.5em;
+	}
+
+	h1
+	{
+		font-size: 3em;
+	}
+
+	h3
+	{
+		padding-right:5px;
+		padding-left: 5px;
+	}
+
+	.mention
+	{
+		padding-left: 20px;
+	}
+
+	.contact
+	{
+		padding-right: 20px;
+	}
+
+	p
+	{
+		font-size: 25px;
+	}
+
+	.pourterminer
+	{
+		padding-bottom: 50px;
+	}
+
+	section
+	{
+		padding-bottom: 300px;
+	}
+}
+
+@media all and (min-width: 1440px)
+{
+	footer
+	{
+		width: 100%;
+		min-height: 50px;
+		padding:0px;
+		justify-content: space-between;
+	}
+
+	.papa
+	{
+		padding-top:15px;
+	}
+
+	.mention
+	{
+		padding-left: 20px;
+	}
+
+	.contact
+	{
+		padding-right: 20px;
+	}
+
+	.papa p
+	{
+		font-size: 50px;
+	}
+
+	h3
+	{
+		font-size: 2em;
+	}
+
+	h2
+	{
+		font-size: 5em;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	table
+	{
+		font-size: 2.5em;
+	}
+
+	h1
+	{
+		font-size: 4em;
+	}
+
+	section
+	{
+		padding-bottom: 200px;
+	}
+}
+
+@media all and (min-width: 2560px)
+{
+	table
+	{
+		width: 100%;
+		font-size: 4.5rem;
+	}
+
+	h3
+	{
+		font-size: 4em;
+	}
+
+	.bas
+	{
+		margin-bottom: 200px;
+	}
+
+	.lanote h4
+	{
+		font-size:3.5em;
+	}
+
+	div#note3
+	{
+		width: 150px;
+		height: 150px;
+	}
+
+	h2
+	{
+		font-size: 9em;
+		margin-top: 200px;
+		margin-bottom: 200px;
+	}
+
+	div.note
+	{
+		width: 300px;
+		height: 250px;
+	}
+
+	h1
+	{
+		font-size: 10em;
+	}
+
+	footer
+	{
+		width: 100%;
+		min-height: 200px;
+		padding:0px;
+		justify-content: space-between;
+	}
+
+	.papa
+	{
+		padding-top:30px;
+	}
+
+	.papa p
+	{
+		font-size: 80px;
+		margin-right: 20px;
+	}
+
+	.mention
+	{
+		padding-left: 40px;
+	}
+
+	.contact
+	{
+		padding-right: 50px;
+	}
+
+	.chic3
+	{
+		margin-bottom: 200px;
+	}
+
+	article
+	{
+		margin-bottom: 100px;
+	}
+
+	h3
+	{
+		padding-right:2px;
+		padding-left: 2px;
+	}
+}

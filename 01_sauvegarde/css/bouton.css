@@ -1,0 +1,25 @@
+
+
+
+.bouton
+{
+  justify-content: center;
+  background-color:#579C87;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  vertical-align: middle;
+}
+
+p
+{
+  color: #FDD835;
+  font-size: 20px;
+}

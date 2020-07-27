@@ -1,0 +1,592 @@
+
+
+@media all and (min-width: 425px)
+{
+	footer
+	{
+		width: 100%;
+		min-height: 70px;
+		padding:0px;
+		justify-content: space-between;
+	}
+	.boite{justify-content: center;padding-bottom: 10px;}
+
+
+}
+
+
+
+@media all and (max-width: 600px)
+{
+	#bloc_page
+	{
+		width:100%;
+	}
+
+	.bouton
+	{
+		width: 100%;
+	}
+
+	footer
+	{
+		width: 100%;
+	}
+
+	div.trait
+	{
+		width: 100%;
+	}
+
+	#menus
+	{
+		flex-direction: column;
+	}
+
+	.ligne1
+	{
+		flex-direction: column;
+	}
+
+	.ligne2
+	{
+		flex-direction: column;
+		margin-top: 0px;
+	}
+
+	.boite
+	{
+		width: 100%;
+		min-height: 300px;
+	}
+
+	#M1
+	{
+		padding:0px;
+	}
+
+	
+	#M3
+	{
+		padding:0px;
+	}
+
+	#M4
+	{
+		padding:0px;
+	}
+
+
+	#fond1 h2
+	{
+		padding: 0px;
+	}
+
+	
+	.note h2
+	{
+		margin:0px;
+	}
+
+	h2
+	{
+		margin:0px;
+	}
+
+	#fond2
+	{
+		min-height: 100px;
+		margin:0px;
+	}
+
+	#fond3
+	{
+		min-height: 100px;
+		margin:0px;
+	}
+
+	#fond4
+	{
+		min-height: 100px;
+		margin:0px;
+	}
+
+	#fond1
+	{
+		min-height: 100px;
+		margin:0px;
+	}
+
+	.loading
+	{
+		margin-top: 3px;
+	}
+}
+
+
+
+
+
+@media all and (min-width: 768px) 
+{
+	footer
+	{
+		width: 100%;
+		min-height: 70px;
+		padding:0px;
+		justify-content: space-between;
+	}
+
+	.bouton
+	{
+		margin-bottom:80px;
+		min-height: 65px;
+	}
+
+	.boite
+	{
+		width: 100%;
+		min-height: 480px;
+		max-width: 350px;
+	}
+
+	.loading
+	{
+		margin-top: 5px;
+	}
+
+	.mention
+	{
+		padding-left: 20px;
+	}
+
+	.contact
+	{
+		padding-right: 20px;
+	}
+
+	p
+	{
+		font-size: 25px;
+		margin: 0px;
+	}
+
+	.papa
+	{
+		padding-top:15px;
+	}
+
+	h1
+	{
+		font-size: 3em;
+	}
+
+	#fond2
+	{
+		padding-top: 60px;
+	}
+
+	#fond3
+	{
+		padding-top: 60px;
+	}
+
+	#fond4
+	{
+		padding-top: 60px;
+	}
+
+	#menus
+	{
+		margin-bottom:0px ;
+	}
+}
+
+@media all and (min-width: 1024px) 
+{
+	footer
+	{
+		width: 100%;
+		min-height: 120px;
+		padding:0px;
+		justify-content: space-between;
+		margin-top: 0px;
+	}
+
+	.boite
+	{
+		min-height: 650px;
+		max-width: 450px;
+	}
+
+	#menus
+	{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.bouton
+	{
+		margin-bottom: 0px;
+	}
+
+	.mention
+	{
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+
+	.contact
+	{
+		padding-right: 20px;
+		padding-top: 20px;
+	}
+
+	.bouton
+	{
+		width: 50%;
+		min-height: 110px;
+		margin-bottom: 150px;
+	}
+
+	#fond2
+	{
+		padding-top: 160px;
+	}
+
+	#fond3
+	{
+		padding-top: 150px;
+	}
+
+	#fond4
+	{
+		padding-top: 140px;
+	}
+
+	#M1
+	{
+		font-size: 2.2em;
+	}
+
+	#M2
+	{
+		font-size: 2.2em;
+	}
+
+	#M3
+	{
+		font-size: 2.2em;
+	}
+
+	#M4
+	{
+		font-size: 2.2em;
+	}
+
+	#fond3 h2
+	{
+		font-size:1.5em;
+	}
+
+	#fond4 h2
+	{
+		font-size:1.5em;
+	}
+
+	#fond2 h2
+	{
+		font-size: 1.2em;
+	}
+
+	#fond1 h2
+	{
+		font-size: 1.7em;
+	}
+}
+
+@media all and (min-width: 1080px) 
+{
+	footer
+	{
+		width: 100%;
+		min-height: 120px;
+		padding:0px;
+		justify-content: space-between;
+		margin-top: 0px;
+	}
+
+	.boite
+	{
+		min-height: 650px;
+		max-width: 450px;
+	}
+
+	#menus
+	{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.bouton
+	{
+		margin-bottom: 110px;
+	}
+}
+
+@media all and (min-width: 1440px) 
+{
+	.boite
+	{
+		width: 100%;
+		min-height: 780px;
+		max-width: 610px;
+	}
+
+	.bouton
+	{
+		width: 50%;
+		min-height: 110px;
+		margin-bottom: 150px;
+	}
+
+	
+
+	p
+	{
+		font-size: 50px;
+		margin: 0px;
+	}
+
+	.papa
+	{
+		padding-top:15px;
+	}
+
+	.mention
+	{
+		padding-left: 20px;
+	}
+
+	.contact
+	{
+		padding-right: 20px;
+	}
+
+	.loading span
+	{
+		width: 15px;
+		height: 15px;
+		margin :0 7px;
+		background-color: #ffd957;
+		border-radius: 50%;
+		display: inline-block;
+		animation-name: dots;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+	}
+
+	.loading
+	{
+		margin-top: 25px;
+	}
+
+	#M1
+	{
+		font-size: 4em;
+		margin-top: -50px;
+	}
+
+	#M2
+	{
+		font-size: 4em;
+	}
+
+	#M3
+	{
+		font-size: 4em;
+		margin-top:52px;
+	}
+
+	#M4
+	{
+		font-size: 4em;
+		margin-top: 0px;
+	}
+
+	#fond2 h2
+	{
+		font-size: 2.3em;
+	}
+
+	h1
+	{
+		font-size: 4em;
+	}
+
+	#fond3 h2
+	{
+		font-size:3.2em;
+	}
+
+	#fond4 h2
+	{
+		font-size:3.2em;
+	}
+
+	#fond3
+	{
+		padding-top: 200px;
+	}
+
+	#fond4
+	{
+		padding-top: 190px;
+	}
+
+	#fond2
+	{
+		padding-top: 270px;
+	}
+
+	div.note
+	{
+		width: 150px;
+		height: 150px;
+		margin-bottom: -55px;
+	}
+
+	#fond1 h2
+	{
+		font-size: 4em;
+	}
+}
+
+@media all and (min-width: 1920px)
+{
+	footer
+	{
+		width: 100%;
+		min-height: 120px;
+		padding:0px;
+		justify-content: space-between;
+		margin-top: 0px;
+	}
+
+	#menus
+	{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.bouton
+	{
+		margin-bottom: 150px;
+		margin-top: 50px;
+	}
+}
+
+@media all and (min-width: 2560px)
+{
+	.boite
+	{
+		width: 100%;
+		min-height: 1250px;
+		max-width: 1000px;
+	}
+
+	.bouton
+	{
+		width: 50%;
+		min-height: 200px;
+		margin-bottom: 250px;
+	}
+
+	p
+	{
+		font-size: 80px;
+		margin: 5px;
+	}
+
+	.papa
+	{
+		padding-top:30px;
+	}
+
+	.mention
+	{
+		padding-left: 30px;
+	}
+
+	.contact
+	{
+		padding-right: 30px;
+	}
+
+	.loading span
+	{
+		width: 20px;
+		height: 20px;
+	}
+
+	.loading
+	{
+		margin-top: 40px;
+	}
+
+	#M1
+	{
+		font-size: 9em;
+		margin-top: 0px;
+	}
+
+	#M2
+	{
+		font-size: 9em;
+	}
+
+	#M3
+	{
+		font-size: 9em;
+		margin-top:50px;
+	}
+
+	#M4
+	{
+		font-size: 9em;
+		margin-top: 0px;
+	}
+
+	#fond2 h2
+	{
+		font-size: 4.3em;
+	}
+
+	h1
+	{
+		font-size: 9em;
+	}
+
+	#fond3 h2
+	{
+		font-size:6em;
+	}
+
+	#fond4
+	{
+		padding-top: 190px;
+	}
+
+	div.note
+	{
+		width: 150px;
+		height: 150px;
+		margin-bottom: -70px;
+	}
+
+	#fond1 h2
+	{
+		font-size: 6em;
+	}
+}

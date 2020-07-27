@@ -1,0 +1,386 @@
+
+@import 'polices.css';
+@import 'effet.css';
+@import 'footer.css';
+@import 'header.css';
+
+
+body
+{
+  margin:0px;
+  background-color: #FFF5FE;
+}
+
+#bloc_page /* le contenru de ma page*/
+
+{
+  width: 100%;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+  background-color: #FFF5FE;
+}
+
+
+section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom:20px;
+  width: 70%;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+#fond
+{
+  /*background-image: linear-gradient(#ffeaea,#F3E5F5 );
+  */
+  text-align: justify;
+  background-color: #FFF5FE;
+  margin:auto;
+}
+
+#fond p
+{
+  font-size: 16px;
+  font-stretch: ultra-expanded;
+}
+
+h2
+{
+  background: linear-gradient( 150deg,#E0881D, #8F5AFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: croissant_oneregular,Arial,sans-serif;
+  font-size: 4em;
+
+}
+
+
+h3
+{
+  min-width: 200px;
+  font-size: 1em;
+  font-family: caveatregular,Arial,sans-serif;
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+
+
+
+.nom
+{
+  overflow: hidden;
+  text-align: center;
+}
+
+table
+{
+  font-family: caveatregular,Arial,sans-serif;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 30px;
+  margin-bottom:30px;
+  
+}
+
+td
+{
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align:justify;
+}
+
+td.prix
+{
+  text-align: right;
+}
+
+
+div.trait
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.trait img
+{
+  max-width: 100%;
+
+}
+
+.chic1
+{
+  color:#E0881D;
+}
+
+.chic2
+{
+  color:#A56799;
+}
+
+.chic3
+{
+  color:#6E4CCC ;
+}
+
+@media all and (max-width: 768px)
+
+
+{
+
+  footer
+  {
+    width: 100%;
+    min-height: 50px;
+    padding:0px;
+    justify-content: space-between;
+  }
+
+
+
+  h2
+  {
+    font-size: 1.5em;
+  }
+
+  h1
+  {
+    font-size: 2em;
+  }
+
+  .mention
+  {
+    padding-left: 20px;
+  }
+
+  .contact
+  {
+    padding-right: 20px;
+  }
+}
+
+
+
+
+@media all and (max-width: 950px)
+{
+  #bloc_page
+  {
+    width:100%;
+    background-color:#FFF5FE;
+  }
+
+  body
+  {
+    min-width: 400px;
+    height: 100%;
+  }
+
+  .bouton
+  {
+    width: 100%;
+  }
+
+  footer
+  {
+    width: 100%;
+  }
+
+  div.trait
+  {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 1024px)
+{
+  footer
+  {
+    width: 100%;
+    min-height: 50px;
+    padding:0px;
+    justify-content: space-between;
+  }
+  .mention
+  {
+    padding-left: 20px;
+  }
+
+  .contact
+  {
+    padding-right: 20px;
+  }
+  
+  h2
+  {
+    font-size: 2em;
+  }
+
+  h1
+  {
+    font-size: 3em;
+  }
+
+ 
+}
+
+@media all and (min-width: 1440px)
+{
+  footer
+  {
+    width: 100%;
+    min-height: 50px;
+    padding:0px;
+    justify-content: space-between;
+  }
+
+  .papa
+  {
+    padding-top:15px;
+  }
+
+  .mention
+  {
+    padding-left: 20px;
+  }
+
+  .contact
+  {
+    padding-right: 20px;
+  }
+
+  .papa p
+  {
+    font-size: 50px;
+  }
+
+  h3
+  {
+    font-size: 2em;
+  }
+
+  table
+  {
+    font-size: 1.5em;
+  }
+
+  h1
+  {
+    font-size: 4em;
+  }
+
+  h2
+  {
+    font-size: 3em;
+  }
+
+  section
+  {
+    padding-bottom: 150px;
+    width: 80%;
+  }
+
+  td{padding:20px;}
+}
+
+@media all and (min-width: 2560px)
+{
+  table
+  {
+    width: 100%;
+    font-size: 3rem;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  
+    
+  }
+td{padding:50px;}
+ 
+
+  h3
+  {
+    font-size: 3.5em;
+  }
+
+  .bas
+  {
+    margin-bottom: 200px;
+  }
+
+  .lanote h4
+  {
+    font-size:3.5em;
+  }
+
+  div#note3
+  {
+    width: 150px;
+    height: 150px;
+  }
+
+  h2
+  {
+    font-size: 7em;
+  }
+
+  div.note
+  {
+    width: 300px;
+    height: 250px;
+  }
+
+  h1
+  {
+    font-size: 9em;
+  }
+
+  footer
+  {
+    width: 100%;
+    min-height: 200px;
+    padding:0px;
+    justify-content: space-between;
+  }
+
+  .papa
+  {
+    padding-top:30px;
+  }
+
+  .papa p
+  {
+    font-size: 80px;
+    margin-right: 20px;
+  }
+
+  .mention
+  {
+    padding-left: 40px;
+  }
+
+  .contact
+  {
+    padding-right: 50px;
+  }
+
+  .chic3
+  {
+    margin-bottom: 200px;
+  }
+}
+
