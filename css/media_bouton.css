@@ -1,21 +1,51 @@
-
-
-@media screen and (min-width: 1024px) and (max-width: 1439px){
-	.bouton{width: 50%;height: 80px;border-radius: 20px;margin-top: 40px;margin-bottom: 100px;}
-	.bouton p {font-size: 50px;}
-
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bouton {
+    width: 50%;
+    height: 80px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  .bouton p {
+    font-size: 30px;
+  }
 }
 
-
-@media screen and (min-width: 1440px) and (max-width: 2559px){
-.bouton{width: 54%; height:150px;border-radius: 30px;margin-top: 80px;margin-bottom: 130px; }
-.bouton p {font-size: 80px;}
-
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bouton {
+    width: 50%;
+    height: 80px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  .bouton p {
+    font-size: 50px;
+  }
 }
 
-@media screen and (min-width: 2560px){
-.bouton{width: 58%;height:250px;border-radius: 50px;margin-top:150px; margin-bottom: 300px;}
-.bouton p {font-size: 130px;}
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+  .bouton {
+    width: 54%;
+    height: 150px;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+  }
+  .bouton p {
+    font-size: 80px;
+  }
+}
 
-
+@media screen and (min-width: 2560px) {
+  .bouton {
+    width: 58%;
+    height: 250px;
+    border-radius: 50px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+  }
+  .bouton p {
+    font-size: 130px;
+  }
 }

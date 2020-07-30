@@ -1,19 +1,20 @@
-@media screen and (max-width: 767px){
-	
+@media screen and (max-width: 767px) {
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1439px){
-footer p{font-size: 30px;}	
-
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  footer p {
+    font-size: 30px;
+  }
 }
 
-
-@media screen and (min-width: 1440px) and (max-width: 2559px){
-footer p{font-size: 40px;}
-
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+  footer p {
+    font-size: 40px;
+  }
 }
 
-@media screen and (min-width: 2560px){
-
-footer p{font-size: 80px;}
+@media screen and (min-width: 2560px) {
+  footer p {
+    font-size: 80px;
+  }
 }
