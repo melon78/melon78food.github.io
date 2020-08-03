@@ -3,6 +3,8 @@
 @import 'effet.css';
 @import 'footer.css';
 @import 'header.css';
+@import 'media_header.css';
+@import 'media_footer.css';
 
 
 body
@@ -41,8 +43,7 @@ a
 
 #fond
 {
-  /*background-image: linear-gradient(#ffeaea,#F3E5F5 );
-  */
+
   text-align: justify;
   background-color: #FFF5FE;
   margin:auto;
@@ -74,9 +75,6 @@ h3
   max-width: 960px;
   margin: 10px auto;
 }
-
-
-
 
 .nom
 {
@@ -138,140 +136,27 @@ div.trait
   color:#6E4CCC ;
 }
 
-@media all and (max-width: 768px)
-
+@media all and (max-width: 767px)
 
 {
 
-  footer
-  {
-    width: 100%;
-    min-height: 50px;
-    padding:0px;
-    justify-content: space-between;
-  }
+  section {width: 100%;}
+  table {font-size:1.3em}
+  h3{font-size: 1.2em;}
+  h2{font-size: 2em;}
 
-
-
-  h2
-  {
-    font-size: 1.5em;
-  }
-
-  h1
-  {
-    font-size: 2em;
-  }
-
-  .mention
-  {
-    padding-left: 20px;
-  }
-
-  .contact
-  {
-    padding-right: 20px;
-  }
 }
 
 
 
 
-@media all and (max-width: 950px)
+@media screen and (min-width: 768px) and (max-width: 1023px)
 {
-  #bloc_page
-  {
-    width:100%;
-    background-color:#FFF5FE;
-  }
-
-  body
-  {
-    min-width: 400px;
-    height: 100%;
-  }
-
-  .bouton
-  {
-    width: 100%;
-  }
-
-  footer
-  {
-    width: 100%;
-  }
-
-  div.trait
-  {
-    width: 100%;
-  }
-}
-
-@media all and (min-width: 1024px)
-{
-  footer
-  {
-    width: 100%;
-    min-height: 50px;
-    padding:0px;
-    justify-content: space-between;
-  }
-  .mention
-  {
-    padding-left: 20px;
-  }
-
-  .contact
-  {
-    padding-right: 20px;
-  }
-  
-  h2
-  {
-    font-size: 2em;
-  }
-
-  h1
-  {
-    font-size: 3em;
-  }
-
  
-}
-
-@media all and (min-width: 1440px)
-{
-  footer
+  section
   {
-    width: 100%;
-    min-height: 50px;
-    padding:0px;
-    justify-content: space-between;
-  }
-
-  .papa
-  {
-    padding-top:15px;
-  }
-
-  .mention
-  {
-    padding-left: 20px;
-  }
-
-  .contact
-  {
-    padding-right: 20px;
-  }
-
-  .papa p
-  {
-    font-size: 50px;
-  }
-
-  h3
-  {
-    font-size: 2em;
+    padding-bottom: 150px;
+    width: 95%;
   }
 
   table
@@ -279,108 +164,91 @@ div.trait
     font-size: 1.5em;
   }
 
-  h1
+  td{padding:20px;}
+
+  h3
   {
-    font-size: 4em;
+    font-size: 1.2em;
   }
 
   h2
   {
-    font-size: 3em;
+    font-size: 2.1em;
   }
 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px)
+{
+
+  section
+  {
+    padding-bottom: 150px;
+    width: 85%;
+  }
+
+  table
+  {
+    font-size: 1.8em;
+  }
+
+  td{padding:20px;}
+
+  h3
+  {
+    font-size: 1.5em;
+  }
+
+
+  h2
+  {
+    font-size: 2.5em;
+  }
+ 
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px)
+{
   section
   {
     padding-bottom: 150px;
     width: 80%;
   }
 
-  td{padding:20px;}
-}
-
-@media all and (min-width: 2560px)
-{
   table
   {
-    width: 100%;
-    font-size: 3rem;
-    padding-bottom: 100px;
-    padding-top: 50px;
-  
-    
+    font-size: 2.5em;
   }
-td{padding:50px;}
- 
+
+  td{padding:20px;}
 
   h3
   {
-    font-size: 3.5em;
+    font-size: 2.7em;
   }
 
-  .bas
-  {
-    margin-bottom: 200px;
-  }
-
-  .lanote h4
-  {
-    font-size:3.5em;
-  }
-
-  div#note3
-  {
-    width: 150px;
-    height: 150px;
-  }
 
   h2
   {
-    font-size: 7em;
+    font-size: 4em;
   }
+ 
+}
 
-  div.note
-  {
-    width: 300px;
-    height: 250px;
-  }
 
-  h1
-  {
-    font-size: 9em;
-  }
+@media screen and (min-width: 2560px)
+{
 
-  footer
-  {
-    width: 100%;
-    min-height: 200px;
-    padding:0px;
-    justify-content: space-between;
-  }
+section{width: 85%;}
 
-  .papa
-  {
-    padding-top:30px;
-  }
+table{width: 100%; font-size: 4rem;padding-bottom: 100px;padding-top: 50px;}
 
-  .papa p
-  {
-    font-size: 80px;
-    margin-right: 20px;
-  }
+td{padding:50px;}
+ 
+h3{font-size: 3.5em;}
 
-  .mention
-  {
-    padding-left: 40px;
-  }
+h2 {font-size: 7em;}
 
-  .contact
-  {
-    padding-right: 50px;
-  }
-
-  .chic3
-  {
-    margin-bottom: 200px;
-  }
+.chic3{ margin-bottom: 200px;}
 }
 

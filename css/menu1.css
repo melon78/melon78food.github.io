@@ -1,7 +1,10 @@
 @import 'polices.css';
-@import 'effet.css';
-@import 'footer.css';
 @import 'header.css';
+@import 'effet.css';
+@import'footer.css';
+@import 'media_menu1.css';
+@import 'media_header.css';
+@import 'media_footer.css';
 
 body
 {
@@ -163,88 +166,56 @@ div#note3
   width: 50px;
   height: 50px;
 }
-
-
-
-@media all and (min-width: 768px){
-  footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
-  .mention{padding-left: 20px;}
-  .contact{padding-right: 20px;}
+@media screen and (max-width: 767px){
+  section{width: 100%;}
+  table{font-size: 1.4em;}
+  h3{font-size: 1.5em;padding-left: 20px;padding-right: 20px;}
  
-
 }
 
-@media all and (max-width: 950px)
-{
-  #bloc_page
-  {
-    width:100%;
-  }
 
-  body
-  {
-    min-width: 400px;
-  }
-
-  .bouton
-  {
-    width: 100%;
-  }
-
-  footer
-  {
-    width: 100%;
-  }
-}
-
-@media all and (min-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
 
 table{font-size: 1.5em;}
-section{width: 80%;}
+section{width: 95%;}
 h3{font-size: 1.6em;}
 .bas{margin-bottom: 50px;}
 .lanote h4{font-size:1.8em;}
 div#note3 {width: 90px;height: 80px;}
-.mention{padding-left: 20px;}
-.contact{padding-right: 20px;}
-body  {background-color: #fcdfd8;}
 
 }
 
-@media all and (min-width: 1080px) {
-  footer{width: 100%;min-height: 50px;padding:0px; justify-content: space-between;margin-top: 0px;}
- body  {background-color: #fcdfd8;}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  table{font-size: 2em;}
+  section{width: 95%;}
+  h3{font-size: 2.1em;}
+  .bas{margin-bottom: 55px;}
+  .lanote h4{font-size:1.8em;}
+  div#note3 {width: 100px;height: 90px;}
   
   }
 
-@media all and (min-width: 1440px){
+@media screen and (min-width: 1440px) and (max-width: 2559px){
 
-footer{width: 100%;min-height: 100px; padding:0px; justify-content: space-between;}
-section{width:80%;}
+section{width:90%;}
 h3{font-size: 2.5em;}
-table{font-size: 2.1em;}
-h1{font-size: 5em;}
+table{font-size:2.8em;}
 h2{font-size: 6em;}
 h3{font-size:2.5em ;letter-spacing: 0.3em;}
-.mention{padding-left: 20px;}
-.contact{padding-right: 20px;}
-.papa p{font-size: 35px;}
+
 .lanote h4{font-size:3em;}
 div#note3 {width: 120px;height: 90px;}
 div.note{width: 200px;height:170px ;}
 }
 
-@media all and (min-width: 2560px){
-  section{width:75%;}
-  h3{font-size: 3.5em;}
-  table{font-size: 4em;}
-  h1{font-size:8em;}
-.papa p{font-size: 50px;}
+@media screen and (min-width: 2560px){
+section{width:75%;}
+h3{font-size: 3.5em;}
+table{font-size: 4em;}
 .lanote h4{font-size:4em;}
 div#note3 {width: 180px;height: 150px;}
 div.note{width: 260px;height:210px ;}
 h2{font-size:8em;}
 h3{font-size:3.5em ;letter-spacing: 0.6em;}
+.bas{margin-bottom: 200px;}
 }
-
-
