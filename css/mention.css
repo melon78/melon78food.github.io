@@ -2,11 +2,10 @@
 @import 'effet.css';
 @import 'footer.css';
 @import 'header.css';
+@import 'media_header.css';
+@import 'media_footer.css';
 
-body
-{
-	margin:0px;
-}
+
 
 body
 {
@@ -51,121 +50,49 @@ p
 	font-size: 20px;
 }
 
-.mention
-{
-	padding:5px;
-}
+@media screen and (max-width: 767px){
+	
+	article
+	{
+		padding-bottom: 10px;
+	}
 
-.papa p
-{
-	color:#FDCB46 ;
-}
+	article p
+	{
+		font-size: 1.5em;
+	}
 
-div.mention:hover
-{
-	animation: none;
-}
-
-a.papa
-{
-	display: block;
-}
-
-a.papa :hover
-{
-	animation: wiggle 75ms infinite;
-	animation-timing-function: linear;
-}
-@media all and (min-width: 768px){
-	footer{width: 100%;min-height: 50px; padding:0px; justify-content: space-between;}
-	.mention{padding-left: 20px;}
-	.contact{padding-right: 20px;}
+	h2
+	{
+		font-size: 1.5em;
+	}
    
   
   }
 
 
-  @media all and (min-width: 1024px)
+  @media screen and (min-width: 768px) and (max-width: 1023px)
   {
-	  footer
-	  {
-		  width: 100%;
-		  min-height: 100px;
-		  padding:0px;
-		  justify-content: space-between;
-	  }
-  
-	  .papa
-	  {
-		  padding-top:15px;
-	  }
-  
-	  .mention
-	  {
-		  padding-left: 20px;
-	  }
-  
-	  .contact
-	  {
-		  padding-right: 20px;
-	  }
-  
-	  footer p
-	  {
-		  font-size: 25px;
-	  }
-  
-	  article
-	  {
-		  padding-bottom: 10px;
-	  }
-  
-	  article p
-	  {
-		  font-size: 30px;
-	  }
-  
-	  h2
-	  {
-		  font-size: 2.6em;
-	  }
-  
-	  h1
-	  {
-		  font-size: 3.7em;
-	  }
+	article
+	{
+		padding-bottom: 10px;
+	}
+
+	article p
+	{
+		font-size: 1.5em;
+	}
+
+	h2
+	{
+		font-size: 2em;
+	}
+	 
   }
 
-@media all and (min-width: 1440px)
+  @media screen and (min-width: 1440px) and (max-width:2559px)
 {
-	footer
-	{
-		width: 100%;
-		min-height: 100px;
-		padding:0px;
-		justify-content: space-between;
-	}
-
-	.papa
-	{
-		padding-top:15px;
-	}
-
-	.mention
-	{
-		padding-left: 20px;
-	}
-
-	.contact
-	{
-		padding-right: 20px;
-	}
-
-	footer p
-	{
-		font-size: 25px;
-	}
-
+	
 	article
 	{
 		padding-bottom: 10px;
@@ -173,50 +100,19 @@ a.papa :hover
 
 	article p
 	{
-		font-size: 35px;
+		font-size: 2.2em;
 	}
 
 	h2
 	{
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 
-	h1
-	{
-		font-size: 4em;
-	}
 }
 
-@media all and (min-width: 2560px)
+@media screen and (min-width: 2560px)
 {
-	footer
-	{
-		width: 100%;
-		min-height: 100px;
-		padding:0px;
-		justify-content: space-between;
-	}
-
-	.papa
-	{
-		padding-top:15px;
-	}
-
-	.mention
-	{
-		padding-left: 20px;
-	}
-
-	.contact
-	{
-		padding-right: 20px;
-	}
-
-	footer p
-	{
-		font-size: 40px;
-	}
-
+	
 	article
 	{
 		padding-bottom: 10px;
@@ -224,16 +120,13 @@ a.papa :hover
 
 	article p
 	{
-		font-size: 55px;
+		font-size: 4.2em;
 	}
 
 	h2
 	{
-		font-size: 4em;
+		font-size: 4.5em;
 	}
 
-	h1
-	{
-		font-size: 7em;
-	}
+	
 }
