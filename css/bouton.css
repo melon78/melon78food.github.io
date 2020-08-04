@@ -1,10 +1,6 @@
-
-
-
-.bouton
-{
+.bouton {
   justify-content: center;
-  background-color:#579C87;
+  background-color: #579c87;
   border-radius: 10px;
   text-align: center;
   margin-top: 10px;
@@ -18,8 +14,7 @@
   vertical-align: middle;
 }
 
-p
-{
-  color: #FDD835;
+p {
+  color: #fdd835;
   font-size: 20px;
 }

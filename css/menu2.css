@@ -1,113 +1,91 @@
+@import "polices.css";
+@import "effet.css";
+@import "footer.css";
+@import "header.css";
+@import "media_header.css";
+@import "media_footer.css";
 
-@import 'polices.css';
-@import 'effet.css';
-@import 'footer.css';
-@import 'header.css';
-@import 'media_header.css';
-@import 'media_footer.css';
-
-
-body
-{
-  margin:0px;
-  background-color: #FFF5FE;
+body {
+  margin: 0px;
+  background-color: #fff5fe;
 }
 
-#bloc_page /* le contenru de ma page*/
-
-{
+#bloc_page /* le contenru de ma page*/ {
   width: 100%;
-  margin:auto;
-  display:flex;
+  margin: auto;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   padding-bottom: 50px;
-  background-color: #FFF5FE;
+  background-color: #fff5fe;
 }
 
-
-section
-{
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   width: 70%;
 }
 
-a
-{
+a {
   text-decoration: none;
 }
 
-#fond
-{
-
+#fond {
   text-align: justify;
-  background-color: #FFF5FE;
-  margin:auto;
+  background-color: #fff5fe;
+  margin: auto;
 }
 
-#fond p
-{
+#fond p {
   font-size: 16px;
   font-stretch: ultra-expanded;
 }
 
-h2
-{
-  background: linear-gradient( 150deg,#E0881D, #8F5AFF);
+h2 {
+  background: linear-gradient(150deg, #e0881d, #8f5aff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: croissant_oneregular,Arial,sans-serif;
+  font-family: croissant_oneregular, Arial, sans-serif;
   font-size: 4em;
-
 }
 
-
-h3
-{
+h3 {
   min-width: 200px;
   font-size: 1em;
-  font-family: caveatregular,Arial,sans-serif;
+  font-family: caveatregular, Arial, sans-serif;
   max-width: 960px;
   margin: 10px auto;
 }
 
-.nom
-{
+.nom {
   overflow: hidden;
   text-align: center;
 }
 
-table
-{
-  font-family: caveatregular,Arial,sans-serif;
+table {
+  font-family: caveatregular, Arial, sans-serif;
   width: 100%;
   font-size: 1rem;
   margin-top: 30px;
-  margin-bottom:30px;
-  
+  margin-bottom: 30px;
 }
 
-td
-{
+td {
   padding: 30px;
   padding-top: 20px;
   padding-bottom: 10px;
-  text-align:justify;
+  text-align: justify;
 }
 
-td.prix
-{
+td.prix {
   text-align: right;
 }
 
-
-div.trait
-{
+div.trait {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -115,140 +93,131 @@ div.trait
   margin-bottom: 10px;
 }
 
-.trait img
-{
+.trait img {
   max-width: 100%;
-
 }
 
-.chic1
-{
-  color:#E0881D;
+.chic1 {
+  color: #e0881d;
 }
 
-.chic2
-{
-  color:#A56799;
+.chic2 {
+  color: #a56799;
 }
 
-.chic3
-{
-  color:#6E4CCC ;
+.chic3 {
+  color: #6e4ccc;
 }
 
-@media all and (max-width: 767px)
-
-{
-
-  section {width: 100%;}
-  table {font-size:1.3em}
-  h3{font-size: 1.2em;}
-  h2{font-size: 2em;}
-
+@media all and (max-width: 767px) {
+  section {
+    width: 100%;
+  }
+  table {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 2em;
+  }
 }
 
-
-
-
-@media screen and (min-width: 768px) and (max-width: 1023px)
-{
- 
-  section
-  {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  section {
     padding-bottom: 150px;
     width: 95%;
   }
 
-  table
-  {
+  table {
     font-size: 1.5em;
   }
 
-  td{padding:20px;}
+  td {
+    padding: 20px;
+  }
 
-  h3
-  {
+  h3 {
     font-size: 1.2em;
   }
 
-  h2
-  {
+  h2 {
     font-size: 2.1em;
   }
-
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1439px)
-{
-
-  section
-  {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  section {
     padding-bottom: 150px;
     width: 85%;
   }
 
-  table
-  {
+  table {
     font-size: 1.8em;
   }
 
-  td{padding:20px;}
+  td {
+    padding: 20px;
+  }
 
-  h3
-  {
+  h3 {
     font-size: 1.5em;
   }
 
-
-  h2
-  {
+  h2 {
     font-size: 2.5em;
   }
- 
 }
 
-@media screen and (min-width: 1440px) and (max-width: 2559px)
-{
-  section
-  {
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+  section {
     padding-bottom: 150px;
     width: 80%;
   }
 
-  table
-  {
+  table {
     font-size: 2.5em;
   }
 
-  td{padding:20px;}
+  td {
+    padding: 20px;
+  }
 
-  h3
-  {
+  h3 {
     font-size: 2.7em;
   }
 
-
-  h2
-  {
+  h2 {
     font-size: 4em;
   }
- 
 }
 
+@media screen and (min-width: 2560px) {
+  section {
+    width: 85%;
+  }
 
-@media screen and (min-width: 2560px)
-{
+  table {
+    width: 100%;
+    font-size: 4rem;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
 
-section{width: 85%;}
+  td {
+    padding: 50px;
+  }
 
-table{width: 100%; font-size: 4rem;padding-bottom: 100px;padding-top: 50px;}
+  h3 {
+    font-size: 3.5em;
+  }
 
-td{padding:50px;}
- 
-h3{font-size: 3.5em;}
+  h2 {
+    font-size: 7em;
+  }
 
-h2 {font-size: 7em;}
-
-.chic3{ margin-bottom: 200px;}
+  .chic3 {
+    margin-bottom: 200px;
+  }
 }
-

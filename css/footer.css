@@ -1,20 +1,19 @@
-
-
-footer
-{
+footer {
   width: 100%;
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  background-color: #579C87;
-  position:fixed;
+  background-color: #579c87;
+  position: fixed;
   bottom: 0;
 }
 
-footer p
-{
-  color: #FDD835;
+footer p {
+  color: #fdd835;
   font-size: 20px;
 }
-.mention {padding-left: 20px;}
-.contact{padding-right: 20px;}
-
+.mention {
+  padding-left: 20px;
+}
+.contact {
+  padding-right: 20px;
+}

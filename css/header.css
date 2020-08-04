@@ -1,21 +1,18 @@
-header
-{
+header {
   display: flex;
   justify-content: center;
-  background-color: #579C87;
+  background-color: #579c87;
 }
 
-header h1
-{
-  color: #FDD835;
+header h1 {
+  color: #fdd835;
   text-transform: lowercase;
-  font-family: truenosemibold,Arial,sans-serif;
+  font-family: truenosemibold, Arial, sans-serif;
   letter-spacing: -2px;
 }
 
-h1
-{
+h1 {
   font-size: 3.2em;
   text-align: center;
-  font-family:  dupreeregular,Arial,sans-serif;
+  font-family: dupreeregular, Arial, sans-serif;
 }
