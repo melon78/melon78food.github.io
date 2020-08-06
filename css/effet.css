@@ -1,91 +1,95 @@
 /*effet point de suspension sur le bouton prochainement*/
 
-.loading span
-{
-  width: 8px;
-  height: 8px;
-  margin :0 5px;
-  background-color: #ffd957;
-  border-radius: 50%;
+.loading span {
+  width: 8px; /* largeur des points*/
+  height: 8px; /* la hauteur des points*/
+  margin: 0 5px; /* lespacement entre les points*/
+  background-color: #ffd957; /* la couleurs de points à l'origine*/
+  border-radius: 50%; /* gestion de l'arrondi des points*/
   display: inline-block;
-  animation-name: dots;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation-name: dots; /* définition du nom de l'animation*/
+  animation-duration: 2s; /* détermine la durer de l'animation*/
+  animation-iteration-count: infinite; /* combien de temps va t-elle durer*/
   animation-timing-function: ease-in-out;
 }
 
-.loading span:nth-child(3)
-{
-  background-color:#ff8b57;
-  animation-delay: 0.6s;
+.loading span:nth-child(1) /* donne des attribut différent au deuxième point*/ {
+  background-color: yellow;
+  animation-delay: 0.2s;
 }
 
 
-@keyframes dots
-{
-  50%
-  {
-    opacity:0;
-    transform: scale(0.7)translateY(0.5PX);}
-  }
 
+.loading span:nth-child(2) /* donne des attribut différent au deuxième point*/ {
+  background-color: yellow;
+  animation-delay: 0.4s;
+}
+
+.loading span:nth-child(3) /* donne des attribut différent au dernier point*/ {
+  background-color: #ff8b57;
+  animation-delay: 0.6s;
+}
+
+/*permet de gerer l'opacité des points de suspension*/
+@keyframes dots {
+  50% {
+    opacity: 0; /* pour que les points soient invisibles au départ */
+    transform: scale(0.7) translateY(0.5px);
+  } /* la manière dontil vont s'élargir*/
+}
 
 /*effet wiggle sur le footer */
-a.papa :hover
-{
+a.papa :hover {
   animation: wiggle 75ms infinite;
   animation-timing-function: linear;
 }
 
-@keyframes wiggle
-{
-  0%
-  {
+@keyframes wiggle {
+  0% {
     transform: translate(2px, 0);
   }
 
-  50%
-  {
+  50% {
     transform: translate(-2px, 0);
   }
 
-  100%
-  {
+  100% {
     transform: translate(2px, 0);
   }
 }
 
 /* effet zoom sur les menus*/
-.restau
-{
-  box-shadow: 0.5px 0px 10px #E0E0E0;
+.restau {
+  box-shadow: 0.5px 0px 10px #e0e0e0;
   transition: 1s;
   cursor: zoom-in;
   opacity: 1;
 }
 
-.restau:hover
-{
-  box-shadow: 2px 2px 2px #B0BEC5;
-  transform:scale(1.3);
+.restau:hover {
+  box-shadow: 2px 2px 2px #b0bec5;
+  transform: scale(1.3);
   opacity: 0.5;
 }
-/* */
-.box
-{
+
+.box {
   overflow: hidden;
 }
 
-h3 a
-{
+h3 a {
   text-decoration: none;
-  color:inherit;
-  background: linear-gradient(to top,rgba(38,166,154 ,1)0%, rgba(38,166,154 ,1) 8%,transparent 8.01%) no-repeat;
+  color: inherit;
+  background: linear-gradient(
+      to top,
+      rgba(38, 166, 154, 1) 0%,
+      rgba(38, 166, 154, 1) 8%,
+      transparent 8.01%
+    )
+    no-repeat;
   background-size: 0 100%;
-  transition: background-size .9s;
+  transition: background-size 0.9s;
 }
 
-h3 a:hover
-{
+h3 a:hover {
   background-size: 100% 100%;
 }
