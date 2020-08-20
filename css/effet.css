@@ -1,52 +1,43 @@
-/*effet point de suspension sur le bouton prochainement*/
+
+/*permet de gerer l'opacité des points de suspension et leur taille*/
+@keyframes dots {
+  50% {
+      opacity: 0;
+     transform: scale(0.7) translateY(0.5px);
+    } 
+  }
+
+  /*activation de l'effet point de suspension */
 
 .loading span {
-  width: 8px; /* largeur des points*/
-  height: 8px; /* la hauteur des points*/
-  margin: 0 5px; /* lespacement entre les points*/
-  background-color: #ffd957; /* la couleurs de points à l'origine*/
-  border-radius: 50%; /* gestion de l'arrondi des points*/
-  display: inline-block;
-  animation-name: dots; /* définition du nom de l'animation*/
-  animation-duration: 2s; /* détermine la durer de l'animation*/
-  animation-iteration-count: infinite; /* combien de temps va t-elle durer*/
-  animation-timing-function: ease-in-out;
+  animation-name: dots; 
+  animation-duration: 2s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out; 
+ 
 }
 
-.loading span:nth-child(1) /* donne des attribut différent au deuxième point*/ {
+.loading span:nth-child(1) {
   background-color: yellow;
-  animation-delay: 0.2s;
+  animation-delay: 0.2s; 
 }
 
-
-
-.loading span:nth-child(2) /* donne des attribut différent au deuxième point*/ {
+.loading span:nth-child(2)  {
   background-color: yellow;
   animation-delay: 0.4s;
 }
 
-.loading span:nth-child(3) /* donne des attribut différent au dernier point*/ {
+.loading span:nth-child(3) {
   background-color: #ff8b57;
   animation-delay: 0.6s;
 }
 
-/*permet de gerer l'opacité des points de suspension*/
-@keyframes dots {
-  50% {
-    opacity: 0; /* pour que les points soient invisibles au départ */
-    transform: scale(0.7) translateY(0.5px);
-  } /* la manière dontil vont s'élargir*/
-}
+/*effet tremblement  sur le footer */
 
-/*effet wiggle sur le footer */
-a.papa :hover {
-  animation: wiggle 75ms infinite;
-  animation-timing-function: linear;
-}
 
 @keyframes wiggle {
   0% {
-    transform: translate(2px, 0);
+    transform: translate(2px, 0); 
   }
 
   50% {
@@ -58,22 +49,11 @@ a.papa :hover {
   }
 }
 
-/* effet zoom sur les menus*/
-.restau {
-  box-shadow: 0.5px 0px 10px #e0e0e0;
-  transition: 1s;
-  cursor: zoom-in;
-  opacity: 1;
-}
-
-.restau:hover {
-  box-shadow: 2px 2px 2px #b0bec5;
-  transform: scale(1.3);
-  opacity: 0.5;
-}
-
-.box {
-  overflow: hidden;
+a.papa :hover {
+  animation: wiggle;
+  animation-duration: 75ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 h3 a {
@@ -81,15 +61,15 @@ h3 a {
   color: inherit;
   background: linear-gradient(
       to top,
-      rgba(38, 166, 154, 1) 0%,
-      rgba(38, 166, 154, 1) 8%,
+      #579c87 7%,
       transparent 8.01%
     )
     no-repeat;
   background-size: 0 100%;
-  transition: background-size 0.9s;
+  transition: background-size 0.7s ease-in-out;
 }
 
 h3 a:hover {
   background-size: 100% 100%;
 }
+

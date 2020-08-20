@@ -85,24 +85,6 @@ td.prix {
   text-align: right;
 }
 
-h3 a {
-  text-decoration: none;
-  color: inherit;
-  background: linear-gradient(
-      to top,
-      rgba(38, 166, 154, 1) 0%,
-      rgba(38, 166, 154, 1) 8%,
-      transparent 8.01%
-    )
-    no-repeat;
-  background-size: 0 100%;
-  transition: background-size 0.9s;
-}
-
-h3 a:hover {
-  background-size: 100% 100%;
-}
-
 div.trait {
   display: flex;
   flex-direction: row;

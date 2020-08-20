@@ -18,15 +18,18 @@ article {
   margin-right: 20px;
   width: 100%;
   box-shadow: 0.5px 0.5px 10px #e0e0e0;
-  transition: 1s;
-  cursor: zoom-in;
-  opacity: 1;
+  transition: 1s; /* délai  pour effectuer l'agradissement ou le rétraicissement sur l 'élément , transition du zoom*/
+  cursor: zoom-in; /* remplace la flèche par la loupe*/
 }
 
 article:hover {
   box-shadow: 2px 2px 2px #b0bec5;
   transform: scale(1.3);
   opacity: 0.5;
+}
+
+.boite {
+  overflow: hidden;
 }
 
 section {

@@ -18,3 +18,14 @@ p {
   color: #fdd835;
   font-size: 20px;
 }
+
+
+ /* création des point de suspension*/
+ .loading span {
+  width: 8px; 
+  height: 8px; 
+  margin: 0 5px; 
+  background-color: #ffd957; 
+  border-radius: 50%; 
+  display: inline-block; 
+}

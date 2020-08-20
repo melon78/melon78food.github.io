@@ -45,9 +45,9 @@ a {
 }
 
 h2 {
-  background: linear-gradient(150deg, #e0881d, #8f5aff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(150deg, #e0881d, #8f5aff); /* couleur en arrière plan*/
+  -webkit-background-clip: text; /* arrière plan couleur limité au text*/
+  -webkit-text-fill-color: transparent;/* rendre visible la couleur d'arrière plan*/
   text-align: center;
   font-family: croissant_oneregular, Arial, sans-serif;
   font-size: 4em;
@@ -64,6 +64,8 @@ h3 {
 .nom {
   overflow: hidden;
   text-align: center;
+
+
 }
 
 table {
